@@ -1,0 +1,12 @@
+h1, p {
+ color: #FFFFFF;
+}
+
+p {
+ padding-bottom: 41.74px;
+}
+
+p:nth-child(3) {
+ color: #000000;
+ font-weight: 600;
+}

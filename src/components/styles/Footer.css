@@ -1,0 +1,24 @@
+footer {
+ background-color: var(--main-color);
+ color: #FFFFFF;
+ font-size: 14px;
+ padding: 15px;
+}
+
+footer h3 {
+ color: #FFFFFF;
+ font-size: 18px;
+}
+
+footer ul li {
+ margin-bottom: 8px;
+}
+
+footer ul li a {
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+footer ul li a:hover {
+ color: #333333;
+}

@@ -85,7 +85,7 @@ hr {
  }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px), (max-width: 767px) {
   .home {
    width: 100vw;
    align-items: center;

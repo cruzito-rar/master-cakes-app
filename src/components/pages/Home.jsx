@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
      <h2 className=" mt-5 pt-5 ms-4"> Master <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cakes </h2>
      <div className="d-flex">
-     <p className="mt-5">
+     <p className="text-white mt-5">
      En nuestra pastelería, el aroma a recién horneado se mezcla con el dulce perfume de la vainilla, mientras los pasteles y tartas relucen en todo su esplendor, invitándote a probar cada bocado lleno de sabor y ternura.
      </p>
      <img src="https://www.lacasadeeva.com/wp-content/uploads/2018/09/La-Casa-de-Eva-pastel-tres-leches-vainilla.png" alt="Cake photo" />

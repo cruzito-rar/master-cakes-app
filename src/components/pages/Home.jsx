@@ -25,7 +25,7 @@ const Home = () => {
      <br />
      <strong> - - - </strong>
      <br />
-     <p className="p-2"> Te invitamos a probar nuestras exquisitas opciones de pasteles de línea, las cuales están disponibles en 20 deliciosas combinaciones de sabores. Puedes optar por llevártelos de inmediato o encargarlos según la variedad y la cantidad de porciones que necesites. ¡Atrévete a probar nuestros pasteles y disfruta de un sabor único y delicioso! </p>
+     <p className="text-white p-2"> Te invitamos a probar nuestras exquisitas opciones de pasteles de línea, las cuales están disponibles en 20 deliciosas combinaciones de sabores. Puedes optar por llevártelos de inmediato o encargarlos según la variedad y la cantidad de porciones que necesites. ¡Atrévete a probar nuestros pasteles y disfruta de un sabor único y delicioso! </p>
     </div>
     <div className="card">
      <div className="card-title bg-light">
@@ -35,7 +35,7 @@ const Home = () => {
      <br />
      <strong> - - - </strong>
      <br />
-     <p className="p-2"> Detalles estilizados para cada ocasión o temporada, recuerda. Lo mejor para tus seres queridos. </p>
+     <p className="text-white p-2"> Detalles estilizados para cada ocasión o temporada, recuerda. Lo mejor para tus seres queridos. </p>
     </div>
     <div className="card">
      <div className="card-title bg-light">
@@ -45,7 +45,7 @@ const Home = () => {
      <br />
      <strong> - - - </strong>
      <br />
-     <p className="p-2"> Con nuestros pasteles personalizados, podrás crear momentos inolvidables para tus seres queridos. Si tienes una idea en mente, nosotros podemos hacerla realidad horneando un pastel hecho a medida, especialmente para ti. ¡Deja volar tu imaginación y crea un pastel único y especial que tus seres queridos nunca olvidarán! </p>
+     <p className="text-white p-2"> Con nuestros pasteles personalizados, podrás crear momentos inolvidables para tus seres queridos. Si tienes una idea en mente, nosotros podemos hacerla realidad horneando un pastel hecho a medida, especialmente para ti. ¡Deja volar tu imaginación y crea un pastel único y especial que tus seres queridos nunca olvidarán! </p>
     </div>
    </div>
 

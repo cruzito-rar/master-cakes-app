@@ -135,11 +135,11 @@ hr {
 
   .card-container .col:nth-child(1), .col:nth-child(2), .col:nth-child(3) {
     margin-top: 50px;
-    margin-left: 25vw;
+    margin-left: 12.5vw;
    }
 
    .contact {
     margin-top: 50px;
-    margin-left: 15.7vw;
+    margin-left: 14vw;
    }
  }

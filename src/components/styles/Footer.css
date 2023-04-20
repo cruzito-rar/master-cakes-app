@@ -28,10 +28,6 @@ footer p {
 }
 
 @media (max-width: 767px) {
- footer .container {
-  
- }
-
  footer img {
   width: 50%;
  }

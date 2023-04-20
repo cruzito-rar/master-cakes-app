@@ -22,3 +22,11 @@ footer ul li a {
 footer ul li a:hover {
  color: #333333;
 }
+
+footer p {
+ color: #FFFFFF;
+}
+
+.footer-end {
+ margin-top: 20px;
+}

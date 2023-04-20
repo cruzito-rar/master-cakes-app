@@ -17,7 +17,7 @@ function App() {
      <Route path='/about' Component={About}/>
      <Route path='/privacy-policy' Component={Privacy}/>
     </Routes>
-    <Footer/>
+   <Footer/>
   </Router>
  );
 }

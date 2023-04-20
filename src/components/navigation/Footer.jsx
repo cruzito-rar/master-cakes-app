@@ -30,7 +30,8 @@ const Footer = () => {
       <div className="col-md-2 mb-3 mb-md-0">
         <ul className="list-unstyled">
           <h3> Horarios </h3>
-          <li> <i className="fas fa-clock"> </i> Lun - Sab 8:00 am - 6:00 pm. <br/> Dom 8:00 am - 2:00 pm </li>
+          <li> <i className="fas fa-clock"> </i> Lunes - Sábado <br/> 8:00 am - 6:00 pm. <br/> <br/>
+          <i className="fas fa-clock"> </i> Domingo: <br/> 8:00 am - 2:00 pm </li>
         </ul>
       </div>
     </div>

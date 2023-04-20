@@ -10,8 +10,8 @@
  }
  
  .home img {
-  width: 100%;
-  margin: -5% 0 0 5%;
+  width: 90%;
+  margin: 15% 0 0 5%;
  }
  
  .home p {
@@ -22,11 +22,10 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   margin-top: 50px;
+   margin: 50px 15px 0 15px;
  }
  
  .card-container .card {
-   width: 30%;
    margin: 20px;
    background-color: var(--main-color);
    border: none;
@@ -45,6 +44,7 @@
  .card h2 {
    margin: 20px 0px 0px 0px;
    font-size: 25px;
+   font-weight: 500;
  }
  
  .card p {

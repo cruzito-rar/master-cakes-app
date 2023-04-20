@@ -27,7 +27,7 @@ hr {
 
 .navbar {
  color: #FFFFFF;
- font-weight: 500;
+ font-weight: 400;
  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
  background-color: transparent;
 }
@@ -77,3 +77,45 @@ hr {
  opacity: 1;
  cursor: pointer;
 }
+
+
+@media (max-width: 900px), (max-width: 1000px), (max-width: 767px), (max-width: 500px), (max-width: 400px) {
+ body {
+  background-size: 100vw 100vh;
+ }
+}
+
+@media (max-width: 900px) {
+  .home {
+   width: 100vw;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .home {
+   justify-content: center;
+   align-items: center;
+  }
+
+  .home img {
+    width: 0px;
+    height: 0px;
+   }
+
+  .card-container {
+   align-items: center;
+   justify-content: center;
+  }
+  
+  .card-container .card {
+   width: 390px;
+  }
+
+  .card-container .card h2 {
+   font-size: 1.5rem;
+  }
+
+  .card-container .card p {
+   font-size: .8rem;
+  }
+ }

@@ -26,3 +26,7 @@ footer ul li a:hover {
 footer p {
  color: #FFFFFF;
 }
+
+@media (max-width: 767px) {
+ 
+}

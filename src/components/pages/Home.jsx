@@ -58,7 +58,7 @@ const Home = () => {
 
    <div className="container mx-auto mt-5 mb-5">
 		<div className="row col-12 d-flex">
-		 <div className="col-md-6">
+		 <div className="col-md-6 mt-auto">
 			<div className="card contact bg-light w-100">
 			 <div className="card-header text-start">
         <h5 className="btn btn-minimalista"> Sucursal </h5>

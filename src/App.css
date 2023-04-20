@@ -126,12 +126,21 @@ hr {
  }
 
  @media (max-width: 767px) {
+  .home h2 {
+   font-size: 1rem;
+  }
+
+  .home p {
+   font-size: .8rem;
+  }
+
   .card-container .col:nth-child(1), .col:nth-child(2), .col:nth-child(3) {
     margin-top: 50px;
     margin-left: 25vw;
    }
 
-   .card .contact {
+   .contact {
     margin-top: 50px;
+    margin-left: 5vw;
    }
  }

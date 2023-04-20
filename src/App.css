@@ -108,7 +108,12 @@ hr {
   }
   
   .card-container .card {
-   width: 390px;
+   width: 380px;
+  }
+
+  .card-container .col:nth-child(3) {
+   margin-top: 50px;
+   margin-left: 25vw;
   }
 
   .card-container .card h2 {

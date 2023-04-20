@@ -28,5 +28,7 @@ footer p {
 }
 
 @media (max-width: 767px) {
- 
+ footer {
+  width: 100vw;
+ }
 }

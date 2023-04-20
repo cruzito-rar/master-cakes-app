@@ -15,10 +15,9 @@ const Home = () => {
      <img src="https://www.lacasadeeva.com/wp-content/uploads/2018/09/La-Casa-de-Eva-pastel-tres-leches-vainilla.png" alt="Cake photo" />
      </div>
     </div>
-   <div className="mt-5 pt-5 text-center">
-    <h5> Nuestros productos </h5>
-   </div>
-    <div className="card-container mt-2">
+   
+    <div className="card-container mt-5 pt-5 text-center">
+    <h5 className="productos"> Nuestros productos </h5>
 <div class="row mb-5">
      <div className="col">
       <div className="card h-100">

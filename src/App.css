@@ -81,18 +81,13 @@ hr {
 
 @media (max-width: 900px), (max-width: 1000px), (max-width: 767px), (max-width: 500px), (max-width: 400px) {
  body {
-  background-size: 100vw 100vh;
+  background-size: 119% 100vh;
  }
 }
 
 @media (max-width: 900px) {
   .home {
    width: 100vw;
-   align-items: center;
-   justify-content: center;
-  }
-
-  .home {
    justify-content: center;
    align-items: center;
   }
@@ -127,11 +122,15 @@ hr {
 
  @media (max-width: 767px) {
   .home h2 {
-   font-size: 1rem;
+   font-size: .5rem;
   }
 
   .home p {
    font-size: .8rem;
+  }
+
+  .productos {
+   margin-left: 25vw;
   }
 
   .card-container .col:nth-child(1), .col:nth-child(2), .col:nth-child(3) {
@@ -141,6 +140,6 @@ hr {
 
    .contact {
     margin-top: 50px;
-    margin-left: 5vw;
+    margin-left: 15.7vw;
    }
  }

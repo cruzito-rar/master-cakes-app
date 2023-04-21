@@ -55,7 +55,8 @@ const Home = () => {
     </div>
     </div>
 
-   <div className="container mx-auto mt-5 mb-5">
+   <div className="container mx-auto mt-5 mb-5" id="contact">
+    <h2 className="text-center mt-5 pb-4"> Contáctanos </h2>
 		<div className="row col-12 d-flex">
 		 <div className="col-md-6 mt-auto">
 			<div className="card contact bg-light w-100">
@@ -63,38 +64,38 @@ const Home = () => {
         <h5 className="btn btn-minimalista"> Sucursal </h5>
 			 </div>
 			 <div className="card-body text-start">
-				<p className="card-text text-dark"> Casa Matriz <br/>  Calle La Reforma #225, Col. San Benito. S.S </p>
-        <hr/>
-        <h5 className="btn btn-minimalista"> Horarios </h5>
+				<p className="card-text text-dark"> Casa Matriz <br/>
+        Calle La Amargura #225, Col. San Benito. La Libertad </p>
+
         <p className="card-text text-dark"> Lunes a Sábado <br/>
         08:00 AM - 06:00 PM <br/> <br/>
          Domingo <br/>
          08:00 AM - 02:00 PM
         </p>
-        <hr/>
-        <h5 className="btn btn-minimalista"> Contacto </h5>
+        
+
         <p className="card-text text-dark"> WhatsApp: +503 1234-5678 <br/>
         pedidosmc@gmail.com </p>
 			 </div>
 			</div>
 		 </div>
 
-     <div className="col-md-6">
+     <div className="col-md-6 mt-auto">
 			<div className="card contact bg-light w-100">
 			 <div className="card-header text-start">
         <h5 className="btn btn-minimalista"> Sucursal </h5>
 			 </div>
 			 <div className="card-body text-start">
-				<p className="card-text text-dark"> San Salvador <br/> Calle La Reforma #225, Col. San Benito. S.S </p>
-        <hr />
-        <h5 className="btn btn-minimalista"> Horarios </h5>
+				<p className="card-text text-dark"> San Salvador <br/>
+        Calle La Reforma #225, Col. San Benito. San Salvador </p>
+
         <p className="card-text text-dark"> Lunes a Sábado <br/>
-        08:00 AM - 05:30 PM <br/> <br/>
+         08:00 AM - 5:30 PM <br/> <br/>
          Domingo <br/>
          08:00 AM - 12:00 MD
         </p>
-        <hr/>
-        <h5 className="btn btn-minimalista"> Contacto </h5>
+        
+
         <p className="card-text text-dark"> WhatsApp: +503 1234-5678 <br/>
         pedidosmc@gmail.com </p>
 			 </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
       <li className="nav-item"> <Link className="nav-link" aria-current="page" to="/" title="Home"> Home </Link> </li>
       <li className="nav-item"> <Link className="nav-link" to="/catalogue" title="Catalogo"> Catálogo </Link> </li>
       <li className="nav-item"> <Link className="nav-link" to="/about" title="Nosotros"> Nosotros </Link> </li>
-      <li className="nav-item"> <Link className="nav-link" to="#contact" title="Contáctanos"> Contáctanos </Link> </li>
+      <li className="nav-item"> <a className="nav-link" href="#contact" title="Contáctanos"> Contáctanos </a> </li>
       <li className="nav-item"> <Link className="nav-link" to="https://www.instagram.com/master_cake_oficial" title="Instagram"> <i className="fab fa-instagram"> </i> </Link> </li>
      </ul>
     </div>

@@ -108,7 +108,7 @@ hr {
 
   .card-container .col:nth-child(3) {
    margin-top: 50px;
-   margin-left: 25vw;
+   margin-left: 21vw;
   }
 
   .card-container .card h2 {
@@ -135,7 +135,7 @@ hr {
 
   .card-container .col:nth-child(1), .col:nth-child(2), .col:nth-child(3) {
     margin-top: 50px;
-    margin-left: 20vw;
+    margin-left: 22vw;
    }
 
    .contact {

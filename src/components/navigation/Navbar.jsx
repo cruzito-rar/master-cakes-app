@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
  return (
   <div>
-   <nav className="navbar navbar-expand-md fixed-top text-center" id="home">
+   <nav className="navbar navbar-expand-md navbar-dark fixed-top text-center w-100" id="home">
     <div className="container-fluid">
      <a className="navbar-brand" href="#" title="Master Cakes"> <img src="../logo.png" width="50px" alt="Logo"/> </a>
      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -127,7 +127,7 @@ hr {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
   .home h2 {
    font-size: 2rem;
   }
@@ -136,10 +136,10 @@ hr {
    font-size: .8rem;
   }
 
-  .card-container .col:nth-child(1), .card-container .col:nth-child(2) {
+  .card-container  .col:nth-child(1), .card-container .col:nth-child(2), .card-container .col:nth-child(3) {
     margin-top: 50px;
-    margin-left: 21vw;
-   }
+    margin-left: 0vw;
+  }
 
   .productos {
    margin-left: 25vw;
@@ -149,10 +149,4 @@ hr {
     margin-top: 50px;
     margin-left: 12vw;
    }
-}
-
-@media (max-width: 300px) {
- h2 {
-  font-size: .8rem;
- }
 }

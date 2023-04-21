@@ -128,12 +128,12 @@ hr {
 }
 
 @media (max-width: 415px) {
-  .home h2 {
-   font-size: 2rem;
+  .home .d-flex h2 {
+   font-size: 3.8rem;
   }
 
   .home p {
-   font-size: .8rem;
+   font-size: 1rem;
   }
 
   .card-container  .col:nth-child(1), .card-container .col:nth-child(2), .card-container .col:nth-child(3) {

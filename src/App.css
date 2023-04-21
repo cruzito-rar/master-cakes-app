@@ -127,7 +127,7 @@ hr {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 415px) {
   .home h2 {
    font-size: 2rem;
   }
@@ -140,13 +140,8 @@ hr {
     margin-top: 50px;
     margin-left: 0vw;
   }
-
-  .productos {
-   margin-left: 25vw;
-  }
-
    .contact {
     margin-top: 50px;
-    margin-left: 12vw;
+    margin-left: 2vw;
    }
 }

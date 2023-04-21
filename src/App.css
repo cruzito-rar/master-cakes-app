@@ -59,23 +59,27 @@ hr {
  box-shadow: 18px 22px 31px -12px rgba(0, 0, 0, .52);
  -webkit-box-shadow: 18px 22px 31px -12px rgba(0, 0, 0, .52);
  -moz-box-shadow: 18px 22px 31px -12px rgba(0, 0, 0, .52);
+ cursor: pointer;
 }
 
 .product-card .overlay {
- background: rgba(0, 0, 0, .7);
- color: #FFFFFF;
- position: absolute;
- top: 0;
- left: 0;
- height: 100%;
- padding: 20px;
- opacity: 0;
- transition: opacity .2s ease-in-out;
+  background: rgba(0, 0, 0, .7);
+  color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 20px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+  pointer-events: none;
 }
+
 
 .product-card:hover .overlay {
  opacity: 1;
- cursor: pointer;
+ transform: translateY(0);
 }
 
 

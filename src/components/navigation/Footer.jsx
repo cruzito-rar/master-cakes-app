@@ -14,8 +14,8 @@ const Footer = () => {
         <h3>Contáctanos</h3>
         <ul className="list-unstyled">
          <li> <i className="fas fa-phone"> </i> Teléfono: 1234-5678 </li>
-          <li> <i className="fas fa-envelope"> </i> Correo: ejemplo@correo.com </li>
-          <li> <i className="fas fa-map-marker-alt"> </i> Dirección: Calle 123, Ciudad </li>
+          <li> <i className="fas fa-envelope"> </i> Correo: pedidosmc@gmail.com </li>
+          <li> <i className="fas fa-map-marker-alt"> </i> Dirección: Calle La Gerardo Barrios y Ave. Simón Bolivar No. 21-7, La Libertad </li>
         </ul>
       </div>
       <div className="col-12 col-md-3 mb-3 mb-md-0 text-center">

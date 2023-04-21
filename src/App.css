@@ -95,6 +95,10 @@ hr {
    align-items: center;
   }
 
+  .home h2 {
+   font-size: 2.8rem;
+  }
+
   .home img {
     width: 0px;
     height: 0px;
@@ -125,7 +129,7 @@ hr {
 
 @media (max-width: 767px) {
   .home h2 {
-   font-size: .5rem;
+   font-size: 2.8rem;
   }
 
   .home p {
@@ -145,4 +149,10 @@ hr {
     margin-top: 50px;
     margin-left: 12vw;
    }
+}
+
+@media (max-width: 300px) {
+ h2 {
+  font-size: 1rem;
+ }
 }

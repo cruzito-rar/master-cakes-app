@@ -111,6 +111,7 @@ hr {
   
   .card-container .card {
    width: 380px;
+   left: 2.5vw;
   }
 
   .card-container .col:nth-child(3) {
@@ -130,6 +131,10 @@ hr {
 @media (max-width: 415px) {
   .home .d-flex h2 {
    font-size: 3.8rem;
+  }
+
+  .home img {
+   width: 0px !important;
   }
 
   .home p {

@@ -28,7 +28,7 @@ hr {
 .navbar {
   color: #FFFFFF;
   font-weight: 400;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  background-color: var(--main-color);
  }
  
  .navbar a {
@@ -36,10 +36,6 @@ hr {
    color: #FFFFFF;
    transition: .5s;
   }
- 
- nav .navbar-collapse.show {
-  background-color: rgb(252, 92, 92, .8);
- }
 
  h6, h5, h2 {
   font-family: 'Dancing Script';

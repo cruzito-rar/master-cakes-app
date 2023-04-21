@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 
 const Footer = () => {
  return (
-  <footer className="text-white py-3">
+  <footer className="text-white" id="footer">
    <div className="container">
     <div className="row d-flex align-items-center">
       <div className="col-12 col-md-4 mb-3 mb-md-0 text-center">
@@ -38,7 +38,7 @@ const Footer = () => {
    </div>
    <div>
    <hr/>
-    <p className="text-center"> Copyright 2023. Master cakes pasteleria El Salvador. Todos los derechos reservados.
+    <p className="text-center pb-0"> Copyright 2023. Master cakes pasteleria El Salvador. Todos los derechos reservados.
     </p>
    </div>
   </footer>

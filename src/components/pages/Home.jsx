@@ -55,7 +55,7 @@ const Home = () => {
     </div>
     </div>
 
-   <div className="container mx-auto mt-5 mb-5" id="contact">
+   <div className="container mx-auto mt-4 mb-4" id="contact">
     <h2 className="text-center mt-5 pb-4"> Contáctanos </h2>
 		<div className="row col-12 d-flex">
 		 <div className="col-md-6 mt-auto">

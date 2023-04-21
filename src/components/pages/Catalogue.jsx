@@ -25,6 +25,12 @@ const Catalogue = () => {
       name: "Pastel de fresa",
       imageUrl: "https://www.enchantedcakesandtreats.com/uploads/1/3/1/3/131310146/s200171920524587930_p146_i1_w1000.png",
       description: "Si buscas un pastel fresco y afrutado, este pastel de fresa es perfecto para ti. La base rellena con una capa generosa de mermelada de fresa fresca, y cubierta con una capa espesa de crema de queso."
+    },
+    {
+      id: 5,
+      name: "Pastel de melocotón",
+      imageUrl: "https://pasteleriamilano.com/wp-content/uploads/2017/04/Melocoton-con-Fresas.png",
+      description: "Un pastel suave y esponjoso con un sabor dulce y afrutado a melocotón. La base esponjosa está rellena con trozos jugosos de melocotón y cubierta con una capa de crema batida. Perfecto para disfrutar en una tarde u ocasión casual."
     }
   ];
 

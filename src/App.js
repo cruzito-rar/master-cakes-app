@@ -6,6 +6,8 @@ import Catalogue from './components/pages/Catalogue';
 import About from './components/pages/About';
 import Privacy from './components/pages/Privacy';
 import Footer from './components/navigation/Footer';
+import Shipments from './components/pages/Shipments';
+import Return from './components/pages/Return';
 
 function App() {
  return (
@@ -16,6 +18,8 @@ function App() {
      <Route path='/catalogue' Component={Catalogue}/>
      <Route path='/about' Component={About}/>
      <Route path='/privacy-policy' Component={Privacy}/>
+     <Route path='/shipments-policy' Component={Shipments}/>
+     <Route path='/return-policy' Component={Return}/>
     </Routes>
    <Footer/>
   </Router>

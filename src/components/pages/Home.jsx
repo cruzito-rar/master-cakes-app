@@ -56,7 +56,7 @@ const Home = () => {
     </div>
 
    <div className="container mx-auto mt-4 mb-4" id="contact">
-    <h2 className="text-center mt-5 pb-4"> Contáctanos </h2>
+    <h2 className="text-center mt-5 mb-4 pb-4"> Contáctanos </h2>
 		<div className="row col-12 d-flex">
 		 <div className="col-md-6 mt-auto">
 			<div className="card contact bg-light w-100">
@@ -65,7 +65,7 @@ const Home = () => {
 			 </div>
 			 <div className="card-body text-start">
 				<p className="card-text text-dark"> Casa Matriz <br/>
-        Calle La Gerardo Barrios y Ave. Simón Bolivar No. 21-7, La Libertad <br /> <br /> <br />
+        Calle Gerardo Barrios y Ave. Simón Bolivar No. 21-7, La Libertad <br /> <br /> <br />
         Lunes a Sábado <br/>
         08:00 AM - 06:00 PM <br/> <br/>
          Domingo <br/>

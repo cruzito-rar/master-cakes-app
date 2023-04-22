@@ -13,8 +13,16 @@ const Navbar = () => {
      <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul className="navbar-nav">
        <li className="nav-item"> <Link className="nav-link" aria-current="page" to="/" title="Home"> Home </Link> </li>
-       <li className="nav-item"> <Link className="nav-link" to="/catalogue" title="Catalogo"> Catálogo </Link>
-       </li>
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Catálogo">
+            Catálogo
+          </a>
+          <ul class="dropdown-menu border-white">
+            <li><Link class="dropdown-item" to="/catalogue"> Pasteles en línea </Link></li>
+            <li><a class="dropdown-item" href="#"> Pasteles temáticos </a></li>
+            <li><a class="dropdown-item" href="#"> Pasteles personalizados </a></li>
+          </ul>
+        </li>
        <li className="nav-item"> <Link className="nav-link" to="/about" title="Nosotros"> Nosotros </Link> </li>
        <li className="nav-item"> <a className="nav-link" href="#footer" title="Contáctanos"> Contáctanos </a> </li>
        <li className="nav-item"> <Link className="nav-link" to="https://www.instagram.com/master_cake_oficial" title="Instagram"> <i className="fab fa-instagram"> </i> </Link> </li>

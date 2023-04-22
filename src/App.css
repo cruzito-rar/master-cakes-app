@@ -30,6 +30,12 @@ hr {
   font-weight: 400;
   background-color: var(--main-color);
  }
+
+ .navbar .dropdown-menu {
+  background-color: var(--main-color);
+  border-top-width: 0;
+  border-radius: 5px;
+ }
  
  .navbar a {
    text-decoration: none;

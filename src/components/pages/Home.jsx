@@ -12,7 +12,7 @@ const Home = () => {
      <h2 className="mt-5 pt-5 ms-4"> Master <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cakes </h2> <br /> <br />
      En nuestra pastelería, el aroma a recién horneado se mezcla con el dulce perfume de la vainilla, mientras los pasteles y tartas relucen en todo su esplendor, invitándote a probar cada bocado lleno de sabor y ternura.
      </p>
-     <img src="https://www.lacasadeeva.com/wp-content/uploads/2018/09/La-Casa-de-Eva-pastel-tres-leches-vainilla.png" alt="Cake photo" />
+     <img src="https://www.terecazola.com/wp-content/uploads/2017/02/queso-bola-300x300.png" alt="Cake photo" />
      </div>
     </div>
    
@@ -21,7 +21,7 @@ const Home = () => {
 <div class="row mb-5">
      <div className="col">
       <div className="card h-100">
-      <div className="card-title rounded bg-light">
+      <div className="card-title rounded-top bg-light">
        <img className="rounded-top" src="https://thumbs.dreamstime.com/b/una-rebanada-de-pastel-chocolate-sirviendo-con-polvo-cacao-en-la-bandeja-cer%C3%A1mica-marr%C3%B3n-circular-sobre-mesa-oscuro-caf%C3%A9-196514985.jpg"/>
        </div>
        <div className="card-body">
@@ -32,7 +32,7 @@ const Home = () => {
      </div>
      <div className="col">
       <div className="card h-100 text-white">
-        <div className="card-title rounded bg-light">
+        <div className="card-title rounded-top bg-light">
        <img className=" card-img-top" src="https://content-cocina.lecturas.com/medio/2018/07/19/paso-a-paso-para-hacer-una-tarta-de-halloween-con-crema-de-cacao-resultado-final_70891608_800x800.jpg"/>
        </div>
        <div className="card-body">
@@ -43,7 +43,7 @@ const Home = () => {
      </div>
      <div className="col">
       <div className="card h-100">
-      <div className="card-title rounded bg-light">
+      <div className="card-title rounded-top bg-light">
        <img className="card-img-top" src="https://latartaalpunto.com/web/wp-content/uploads/2020/07/pastel-de-unicornio.jpg"/>
        </div>
        <div className="card-body">

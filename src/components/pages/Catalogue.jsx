@@ -35,7 +35,8 @@ const Catalogue = () => {
   ];
 
   return (
-    <div className="container mt-5 mb-5 pt-5 pb-5">
+    <div className="container mt-5 pt-5 pb-5">
+      <h1 className="text-center mb-5 text-white"> Pasteles en línea </h1>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
         {cake.map((product, index) => (
           <div key={index} className="col mb-4">

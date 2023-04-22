@@ -8,7 +8,15 @@ const Shipments = () => {
       <div className="col-md-9">
        <h1 className="text-center mt-5 my-5 text-white"> Política de envíos </h1>
        <p className="mt-5 pt-5 mb-5">
-     Para utilizar los servicios ofrecidos por Pastelería Master Cakes, los clientes deberán facilitar determinados datos de carácter personal. Su información personal se procesa y almacena en servidores o medios magnéticos que mantienen altos estándares de seguridad y protección tanto física como tecnológica. <br /> <br /> Pastelería Master Cakes tomará las medidas que estén a su alcance para resguardar la privacidad de la información de los clientes. Por lo tanto, no compartirá la información personal sea a manera onerosa o gratuita, a excepción de las maneras establecidas en el presente documento. En caso que terceras personas logren acceder a alguna información de manera ilegítima, Pastelería Master Cakes no se hace responsable por el uso de la información. <br /> <br />  Pastelería Master Cakes cooperará con las autoridades judiciales o administrativas para garantizar el fiel cumplimiento a la ley y con el propósito de salvaguardar la integridad y la seguridad de la sociedad y la de sus clientes. Por lo tanto, esta podrá proporcionar información personal de sus usuarios a petición de cualquier autoridad para efectos de sus investigaciones en casos como: protección de derechos de propiedad industrial e intelectual, prevención del fraude y otras materias, y por su parte, el usuario autoriza a Pastelería Master Cakes para que brinde la información que a su discreción estime pertinentes para el fiel cumplimiento de la ley. </p>
+La pastelería Master Cakes ofrece un servicio de entrega a nivel nacional. El costo del envío será de $2.50 por pedido, el cual puede variar dependiendo de la distancia de destino en el cual se entregará.
+
+Nos comprometemos a entregar los pedidos en un plazo máximo de 24 horas después de realizada la orden. Si el pedido se realiza después de las 2:30 pm, la entrega se realizará al día siguiente. Las entregas se realizarán los días Lunes, Viernes, Sábados y Domingos en horarios de 10:00 am a 12:00 md. Cualquier pedido realizado fuera de estos horarios se entregará en el siguiente día hábil. <br /> <br />
+
+El pago se realizará a través de la plataforma en línea de la pastelería, utilizando tarjeta de crédito o débito. También se aceptará pago en efectivo al momento de la entrega. Garantizamos una entrega segura, cumpliendo con todas las medidas de higiene necesarias para proteger la salud de nuestros clientes y trabajadores. <br />
+
+Queremos destacar que Master Cakes no realizará entregas en días festivos o feriados, a menos que se haya acordado previamente con el cliente. También nos reservamos el derecho de rechazar pedidos en caso de no contar con la disponibilidad necesaria para cumplir con los plazos de entrega. <br /> <br />
+
+Esperamos poder ofrecerte nuestro servicio de entrega de la mejor manera posible y que disfrutes de nuestros deliciosos productos. ¡Gracias por confiar en Master Cakes! </p>
       </div>
      </div>
     </div>

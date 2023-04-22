@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 
 const Footer = () => {
  return (
-  <footer className="text-white mt-5 pb-4" id="footer">
+  <footer className="text-white mt-5 pb-5" id="footer">
    <div className="container">
     <div className="row d-flex align-items-center">
       <div className="col-12 col-md-3 mb-3 mb-md-0 text-center">
@@ -13,8 +13,8 @@ const Footer = () => {
       <div className="col-12 col-md-4 mb-3 mb-md-0 text-center">
         <h3>Contáctanos</h3>
         <ul className="list-unstyled">
-         <li> <i className="fas fa-phone"> </i> Teléfono: +503 1234-5678 </li>
-          <li> <i className="fas fa-envelope"> </i> Correo: pedidosmc@gmail.com </li>
+         <li> <i className="fas fa-phone"> </i> Teléfono: <a href="tel:+503 1234-5678"> +503 1234-5678 </a> </li>
+          <li> <i className="fas fa-envelope"> </i> Correo: <a href="mailto:pedidosmc@gmail.com"> pedidosmc@gmail.com </a> </li>
           <li> <i className="fas fa-map-marker-alt"> </i> Dirección: Calle Gerardo Barrios y Ave. Simón Bolivar No. 21-7, La Libertad </li>
         </ul>
       </div>

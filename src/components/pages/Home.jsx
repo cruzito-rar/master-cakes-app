@@ -12,7 +12,7 @@ const Home = () => {
      <h2 className="mt-5 pt-5 ms-4"> Master <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cakes </h2> <br /> <br />
      En nuestra pastelería, el aroma a recién horneado se mezcla con el dulce perfume de la vainilla, mientras los pasteles y tartas relucen en todo su esplendor, invitándote a probar cada bocado lleno de sabor y ternura.
      </p>
-     <img src="https://www.terecazola.com/wp-content/uploads/2017/02/queso-bola-300x300.png" alt="Cake photo" />
+     <img src="https://kathleenshop.com/wp-content/uploads/2021/09/Piano-Theme-Cake-Rs-650-per-pond.png" alt="Cake photo"/>
      </div>
     </div>
    

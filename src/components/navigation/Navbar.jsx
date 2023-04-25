@@ -14,13 +14,13 @@ const Navbar = () => {
       <ul className="navbar-nav">
        <li className="nav-item"> <Link className="nav-link" aria-current="page" to="/" title="Home"> Home </Link> </li>
        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Catálogo">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Catálogo">
             Catálogo
           </a>
-          <ul class="dropdown-menu border-white">
-            <li><Link class="dropdown-item" to="/catalogue"> Pasteles en línea </Link></li>
-            <li><a class="dropdown-item" href="#"> Pasteles temáticos </a></li>
-            <li><a class="dropdown-item" href="#"> Pasteles personalizados </a></li>
+          <ul className="dropdown-menu border-white">
+            <li> <Link className="dropdown-item" to="/online-catalogue"> Pasteles en línea </Link></li>
+            <li> <Link className="dropdown-item" to="/thematics-catalogue"> Pasteles temáticos </Link></li>
+            <li> <Link className="dropdown-item" to="/customized-catalogue"> Pasteles personalizados </Link></li>
           </ul>
         </li>
        <li className="nav-item"> <Link className="nav-link" to="/about" title="Nosotros"> Nosotros </Link> </li>

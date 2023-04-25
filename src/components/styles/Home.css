@@ -51,7 +51,7 @@
    margin-bottom: 20px;
  }
  
- .card img:hover {
+ .card-title img:hover {
    transform: translateY(-4px);
    opacity: 1;
  }

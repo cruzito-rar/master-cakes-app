@@ -1,18 +1,18 @@
 import { useState, useEffect } from 'react';
 
-const Catalogue = () => {
+const Catalogue2 = () => {
   const [cakes, setCakes] = useState([]);
 
   useEffect(() => {
     fetch('cake.json')
       .then(response => response.json())
-      .then(data => setCakes(data.online))
+      .then(data => setCakes(data.customized))
       .catch(error => console.error(error));
   }, []);
 
   return (
     <div className="container mt-5 pt-5 pb-5">
-      <h1 className="text-center mb-5 text-white"> Pasteles en línea </h1>
+      <h1 className="text-center mb-5 text-white"> Pasteles personalizados </h1>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
         {cakes.map((cake) => (
           <div key={cake.id} className="col mb-4">
@@ -31,4 +31,4 @@ const Catalogue = () => {
   );
 };
 
-export default Catalogue;
+export default Catalogue2;

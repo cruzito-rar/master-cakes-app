@@ -18,7 +18,7 @@ const Home = () => {
    
     <div className="card-container mt-5 pt-5 text-center">
     <h5 className="productos"> Nuestros productos </h5>
-<div class="row mb-5">
+<div className="row mb-5">
      <div className="col">
       <div className="card h-100">
       <div className="card-title rounded-top bg-light">
@@ -33,7 +33,7 @@ const Home = () => {
      <div className="col">
       <div className="card h-100 text-white">
         <div className="card-title rounded-top bg-light">
-       <img className=" card-img-top" src="https://content-cocina.lecturas.com/medio/2018/07/19/paso-a-paso-para-hacer-una-tarta-de-halloween-con-crema-de-cacao-resultado-final_70891608_800x800.jpg"/>
+       <img className="card-img-top" src="https://content-cocina.lecturas.com/medio/2018/07/19/paso-a-paso-para-hacer-una-tarta-de-halloween-con-crema-de-cacao-resultado-final_70891608_800x800.jpg"/>
        </div>
        <div className="card-body">
         <h2 className="card-title"> Pasteles temáticos </h2> <br/>

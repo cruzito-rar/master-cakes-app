@@ -17,7 +17,7 @@ const Navbar = () => {
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Catálogo">
             Catálogo
           </a>
-          <ul className="dropdown-menu border-white">
+          <ul className="dropdown-menu border-0 text-center bs-dropdown-link-active-bg-none">
             <li> <Link className="dropdown-item" to="/online-catalogue"> Pasteles en línea </Link></li>
             <li> <Link className="dropdown-item" to="/thematics-catalogue"> Pasteles temáticos </Link></li>
             <li> <Link className="dropdown-item" to="/customized-catalogue"> Pasteles personalizados </Link></li>

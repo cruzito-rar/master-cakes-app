@@ -18,7 +18,7 @@ const Navbar = () => {
             Catálogo
           </a>
           <ul className="dropdown-menu border-0 text-center">
-            <li> <Link className="dropdown-item" to="/online-catalogue"> Pasteles en línea </Link></li>
+            <li> <Link className="dropdown-item" to="/online-catalogue"> Pasteles </Link></li>
             <li> <Link className="dropdown-item" to="/thematics-catalogue"> Pasteles temáticos </Link></li>
             <li> <Link className="dropdown-item" to="/customized-catalogue"> Pasteles personalizados </Link></li>
           </ul>

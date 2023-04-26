@@ -16,7 +16,7 @@ const Catalogue = () => {
 
   return (
     <div className="container mt-5 pt-5 pb-5">
-      <h1 className="text-center mb-5 text-white"> Nuestros pasteles </h1>
+      <h1 className="text-center mb-5 text-white"> Pasteles </h1>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
         {cakes.map((cake) => (
           <div key={cake.id} className="col mb-4">

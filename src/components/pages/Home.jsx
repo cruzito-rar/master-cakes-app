@@ -74,7 +74,7 @@ const Home = () => {
         08:00 AM - 06:00 PM <br/> <br/>
          Domingo <br/>
          08:00 AM - 02:00 PM <br /><br /><br />
-        WhatsApp: +503 1234-5678 <br/>
+        WhatsApp: +503 7612-5133 <br/>
         pedidosmc@gmail.com </p>
 			 </div>
 			</div>
@@ -87,12 +87,12 @@ const Home = () => {
 			 </div>
 			 <div className="card-body text-start">
 				<p className="card-text text-dark"> San Salvador <br/>
-        Calle La Reforma #225, Col. San Benito. San Salvador  <br /><br /><br />
+        Calle Reforma #225, Col. San Benito. San Salvador  <br /><br /><br />
          Lunes a Sábado <br/>
          08:00 AM - 5:30 PM <br/> <br/>
          Domingo <br/>
          08:00 AM - 12:00 MD <br /><br /><br />
-         WhatsApp: +503 1234-5678 <br/>
+         WhatsApp: +503 7509-4328 <br/>
         pedidosmc@gmail.com </p>
 			 </div>
 			</div>

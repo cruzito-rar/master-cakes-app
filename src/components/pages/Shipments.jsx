@@ -4,7 +4,7 @@ const Shipments = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <div>
     <div className="container my-5">
@@ -25,7 +25,7 @@ Esperamos poder ofrecerte nuestro servicio de entrega de la mejor manera posible
      </div>
     </div>
    </div>
-  )
+  );
 }
 
-export default Shipments
+export default Shipments;

@@ -19,7 +19,7 @@ Es importante mencionar que si el producto se daña debido a una mala manipulaci
      </div>
     </div>
    </div>
-  )
+  );
 }
 
-export default Return
+export default Return;

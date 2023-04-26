@@ -32,7 +32,6 @@
    color: #FFFFFF;
    box-shadow: 0px 4px 8px rgba(0, 0, 0, .5);
    text-align: center;
-   cursor: pointer;
  }
  
  .card img {
@@ -92,5 +91,4 @@
  .btn-minimalista:hover {
    background-color: #B4B3FF;
    color: #FFFFFF;
-   cursor: pointer;
  }

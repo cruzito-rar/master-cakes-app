@@ -34,65 +34,65 @@
  "thematics" : [
   {
    "id": 1,
-   "name": "Pastel de halloween temático",
-   "imageUrl": "https://i.pinimg.com/736x/2d/52/ed/2d52ed04da462268b407c05bff8b40e9.jpg",
-   "description": "Celebra Halloween con este pastel, perfecto para la ocasión. Con su base de bizcocho de chocolate oscuro y su frosting de vainilla con colorante naranja, este pastel es la deliciosa representación de una calabaza ¡Haz que tu celebración sea aún más espeluznante y sabrosa con este pastel temático de Halloween!"
+   "name": "Pastel temático Halloween",
+   "imageUrl": "https://i.pinimg.com/736x/82/ee/d9/82eed91b2ac802e1c564f811d15943eb.jpg",
+   "description": "Celebra con este pastel, perfecto para Halloween. Con su base de bizcocho de chocolate y su frosting de vainilla, este pastel es la deliciosa representación del horror ¡Haz que tu celebración sea aún más espeluznante y sabrosa con este pastel temático de Halloween!"
   },
   {
    "id": 2,
-   "name": "Pastel de halloween temático",
-   "imageUrl": "https://i.pinimg.com/736x/2d/52/ed/2d52ed04da462268b407c05bff8b40e9.jpg",
-   "description": "Celebra Halloween con este pastel, perfecto para la ocasión. Con su base de bizcocho de chocolate oscuro y su frosting de vainilla con colorante naranja, este pastel es la deliciosa representación de una calabaza ¡Haz que tu celebración sea aún más espeluznante y sabrosa con este pastel temático de Halloween!"
+   "name": "Pastel temático Dinosaurios",
+   "imageUrl": "https://minilook.com.ar/wp-content/uploads/2021/01/torta-de-dinosaurios-para-ninos-grandes.jpg",
+   "description": "Sorprende a tus aventureros con un delicioso pastel de dinosaurios. Ddecorado con una escena prehistórica de fondant. ¡Una dulce y jurasica aventura para celebrar!"
   },
   {
    "id": 3,
-   "name": "Pastel de halloween temático",
-   "imageUrl": "https://i.pinimg.com/736x/2d/52/ed/2d52ed04da462268b407c05bff8b40e9.jpg",
-   "description": "Celebra Halloween con este pastel, perfecto para la ocasión. Con su base de bizcocho de chocolate oscuro y su frosting de vainilla con colorante naranja, este pastel es la deliciosa representación de una calabaza ¡Haz que tu celebración sea aún más espeluznante y sabrosa con este pastel temático de Halloween!"
+   "name": "Pastel temático Gatitos",
+   "imageUrl": "https://i.pinimg.com/originals/fc/41/50/fc41506bbffa609c727bcff550e477c0.jpg",
+   "description": "Este pastel de gatitos está hecho con bizcocho esponjoso de vainilla y cubierto con una deliciosa capa fondant saborizado de queso. ¡Disfruta de la dulzura felina en tu próxima celebración!"
   },
   {
    "id": 4,
-   "name": "Pastel de halloween temático",
-   "imageUrl": "https://i.pinimg.com/736x/2d/52/ed/2d52ed04da462268b407c05bff8b40e9.jpg",
-   "description": "Celebra Halloween con este pastel, perfecto para la ocasión. Con su base de bizcocho de chocolate oscuro y su frosting de vainilla con colorante naranja, este pastel es la deliciosa representación de una calabaza ¡Haz que tu celebración sea aún más espeluznante y sabrosa con este pastel temático de Halloween!"
+   "name": "Pastel temático Playa",
+   "imageUrl": "https://i.pinimg.com/originals/27/aa/0a/27aa0a2ac54918e595264dd87190f90c.jpg",
+   "description": "Sumérgete en el sabor del verano con nuestro pastel playero. Deléitate con un sabor húmedo y refrescante, cubierto de fondant saborizado de coco y adornado con detalles de arena, conchas y estrellas de mar de azúcar. Perfecto para fiestas o celebraciones tropicales."
   },
   {
    "id": 5,
-   "name": "Pastel de halloween temático",
-   "imageUrl": "https://i.pinimg.com/736x/2d/52/ed/2d52ed04da462268b407c05bff8b40e9.jpg",
-   "description": "Celebra Halloween con este pastel, perfecto para la ocasión. Con su base de bizcocho de chocolate oscuro y su frosting de vainilla con colorante naranja, este pastel es la deliciosa representación de una calabaza ¡Haz que tu celebración sea aún más espeluznante y sabrosa con este pastel temático de Halloween!"
+   "name": "Pastel temático Espacio",
+   "imageUrl": "https://i.pinimg.com/originals/c3/d4/3c/c3d43c9004cbb77d7bbbec51b1a39414.png",
+   "description": "Viaja por el universo con cada bocado de nuestro pastel. Su suave bizcocho y decoración en tonos cósmicos te transportarán a lo más profundo del cosmos. Perfecto para los amantes de la astronomía y los exploradores del espacio."
   }
  ],
  "customized" : [
   {
    "id" : 1,
-   "name" : "Pastel personalizado - Naruto",
+   "name" : "Personalizado - Naruto",
    "imageUrl" : "https://i.pinimg.com/originals/54/82/bd/5482bd41d1a5c2543dc772d3ab4fe4dd.jpg",
-   "description" : "Celebra con estilo con este pastel personalizado de Naruto. Con su bizcocho de vainilla, cubierta de chocolate y decoración en fondant de Naruto, este pastel es perfecto para cualquier fan del anime. ¡Sorprende a tus amigos y familiares con este pastel temático en tu próxima celebración!"
+   "description" : "Celebra como un Ninja con este pastel personalizado de Naruto. Con su bizcocho de vainilla y cubierta de chocolate, este pastel es perfecto para cualquier fan del anime. ¡Sorprende a tus amigos y familiares con este pastel temático en tu próxima celebración!"
   },
   {
    "id" : 2,
-   "name" : "Pastel personalizado - Naruto",
-   "imageUrl" : "https://i.pinimg.com/originals/54/82/bd/5482bd41d1a5c2543dc772d3ab4fe4dd.jpg",
-   "description" : "Celebra con estilo con este pastel personalizado de Naruto. Con su bizcocho de vainilla, cubierta de chocolate y decoración en fondant de Naruto, este pastel es perfecto para cualquier fan del anime. ¡Sorprende a tus amigos y familiares con este pastel temático en tu próxima celebración!"
+   "name" : "Personalizado - Minecraft",
+   "imageUrl" : "https://aranzazu.com/wp-content/uploads/2023/03/producto-web-base-especiales-dia-del-ninocopia-copia.webp",
+   "description" : "Celebra con este pastel temático de Creeper, con bizcocho de vainilla y cubierto de fondant verde. ¡Perfecto para cualquier fan de Minecraft!"
   },
   {
    "id" : 3,
-   "name" : "Pastel personalizado - Naruto",
-   "imageUrl" : "https://i.pinimg.com/originals/54/82/bd/5482bd41d1a5c2543dc772d3ab4fe4dd.jpg",
-   "description" : "Celebra con estilo con este pastel personalizado de Naruto. Con su bizcocho de vainilla, cubierta de chocolate y decoración en fondant de Naruto, este pastel es perfecto para cualquier fan del anime. ¡Sorprende a tus amigos y familiares con este pastel temático en tu próxima celebración!"
+   "name" : "Personalizado - Beastars",
+   "imageUrl" : "https://pbs.twimg.com/media/Elk3u_qU4AMnejM.jpg",
+   "description" : "Este pastel es una delicia para los fans del. Con su bizcocho suave y una capa de glaseado de turrón, está decorado con los personajes principales del anime. Desde Legoshi hasta Haru, este pastel seguro será un éxito en cualquier celebración."
   },
   {
    "id" : 4,
-   "name" : "Pastel personalizado - Naruto",
-   "imageUrl" : "https://i.pinimg.com/originals/54/82/bd/5482bd41d1a5c2543dc772d3ab4fe4dd.jpg",
-   "description" : "Celebra con estilo con este pastel personalizado de Naruto. Con su bizcocho de vainilla, cubierta de chocolate y decoración en fondant de Naruto, este pastel es perfecto para cualquier fan del anime. ¡Sorprende a tus amigos y familiares con este pastel temático en tu próxima celebración!"
+   "name" : "Personalizado Barbie",
+   "imageUrl" : "https://d2r9epyceweg5n.cloudfront.net/stores/002/197/435/products/barbie-2-pisos1-3cbaea94d8ccd5bd0f16737279429900-1024-1024.webp",
+   "description" : "Este pastel de Barbie es el sueño hecho realidad para cualquiera. Con una textura suave y esponjosa y una cubierta de fondant blanca brillante con turrón rosado, es perfecto para cualquier ocasión especial. La figura de Barbie en la parte superior del pastel lo convierte en un impresionante centro de atención."
   },
   {
    "id" : 5,
-   "name" : "Pastel personalizado - Naruto",
-   "imageUrl" : "https://i.pinimg.com/originals/54/82/bd/5482bd41d1a5c2543dc772d3ab4fe4dd.jpg",
-   "description" : "Celebra con estilo con este pastel personalizado de Naruto. Con su bizcocho de vainilla, cubierta de chocolate y decoración en fondant de Naruto, este pastel es perfecto para cualquier fan del anime. ¡Sorprende a tus amigos y familiares con este pastel temático en tu próxima celebración!"
+   "name" : "Personalizado Ladybug",
+   "imageUrl" : "https://pm1.narvii.com/6552/b7bd6bb90fa08c4e5db89422de742075ce8b8a38_hq.jpg",
+   "description" : "Disfruta la más dulce aventura con este pastel de Ladybug y Cat Noir. Decorado con diseños inspirados en los héroes más grandes de París. Perfecto para cualquier fan de la serie, este pastel es el complemento ideal para tu fiesta."
   }
  ]
 }

@@ -6,7 +6,7 @@ const Navbar = () => {
   <div>
    <nav className="navbar navbar-expand-md navbar-dark fixed-top text-center w-100" id="home">
     <div className="container-fluid">
-     <a className="navbar-brand" href="#" title="Master Cakes"> <img src="../logo.png" width="50px" alt="Logo"/> </a>
+     <Link className="navbar-brand" to="/" title="Master Cakes"> <img src="../logo.png" width="65px" alt="Logo"/> </Link>
      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"> </span>
      </button>
@@ -17,7 +17,7 @@ const Navbar = () => {
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Catálogo">
             Catálogo
           </a>
-          <ul className="dropdown-menu border-0 text-center bs-dropdown-link-active-bg-none">
+          <ul className="dropdown-menu border-0 text-center">
             <li> <Link className="dropdown-item" to="/online-catalogue"> Pasteles en línea </Link></li>
             <li> <Link className="dropdown-item" to="/thematics-catalogue"> Pasteles temáticos </Link></li>
             <li> <Link className="dropdown-item" to="/customized-catalogue"> Pasteles personalizados </Link></li>

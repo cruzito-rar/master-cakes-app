@@ -3,62 +3,62 @@
   {
    "id": 1,
    "name": "Pastel de chocolate",
-   "imageUrl": "https://kathleenshop.com/wp-content/uploads/2021/06/Black-Foret-Cake-500gms-Rs480.png",
+   "imageUrl": "https://animalgourmet.com/wp-content/uploads/2020/05/chocolate-1121356_1920-e1589323566354.jpg",
    "description": "Este delicioso pastel está hecho con una suave y esponjosa masa de chocolate, cubierta con una rica y cremosa ganache de chocolate oscuro."
   },
   {
    "id": 2,
    "name": "Pastel de queso",
-   "imageUrl": "https://angellinares.es/137168-thickbox_default/tarta-queso-crema-premium-215kg-179g.jpg",
+   "imageUrl": "https://i.blogs.es/75907e/tarta_queso_philadelphia-min/1366_2000.jpeg",
    "description": "Delicioso postre clásico de la repostería, con una base de galleta crujiente y una suave y cremosa mezcla de queso crema, huevos, azúcar y vainilla."
   },
   {
    "id": 3,
    "name": "Pastel de 3 leches",
-   "imageUrl": "https://static.wixstatic.com/media/ee6e5b_8a62aa980f634353b5569bc1c1239310~mv2.png/v1/fill/w_1474,h_1474,al_c/ee6e5b_8a62aa980f634353b5569bc1c1239310~mv2.png",
+   "imageUrl": "https://www.recetasderechupete.com/wp-content/uploads/2020/11/Pastel-tres-leches-portada-2-scaled.jpg",
    "description": "Este pastel latinoamericano es una deliciosa combinación de texturas y sabores. La base esponjosa se empapa en una mezcla de tres tipos de leche: leche evaporada, leche condensada y crema de leche."
   },
   {
    "id": 4,
    "name": "Pastel de fresa",
-   "imageUrl": "https://www.enchantedcakesandtreats.com/uploads/1/3/1/3/131310146/s200171920524587930_p146_i1_w1000.png",
+   "imageUrl": "https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2019/08/15111756/RFB-0708-3-tortadefresas.jpg",
    "description": "Si buscas un pastel fresco y afrutado, este pastel de fresa es perfecto para ti. La base rellena con una capa generosa de mermelada de fresa fresca, y cubierta con una capa espesa de crema de queso."
   },
   {
    "id": 5,
    "name": "Pastel de melocotón",
-   "imageUrl": "https://pasteleriamilano.com/wp-content/uploads/2017/04/Melocoton-con-Fresas.png",
+   "imageUrl": "https://www.pasteleite.com/wp-content/uploads/2020/05/torta-de-duraznos.jpg",
    "description": "Un pastel suave y esponjoso con un sabor dulce y afrutado a melocotón. La base esponjosa está rellena con trozos jugosos de melocotón y cubierta con una capa de crema batida. Perfecto para disfrutar en una tarde u ocasión casual."
   },
   {
-    "id": 1,
-    "name": "Pastel de chocolate",
-    "imageUrl": "https://kathleenshop.com/wp-content/uploads/2021/06/Black-Foret-Cake-500gms-Rs480.png",
-    "description": "Este delicioso pastel está hecho con una suave y esponjosa masa de chocolate, cubierta con una rica y cremosa ganache de chocolate oscuro."
+   "id": 6,
+   "name": "Pastel de quinceañera",
+   "imageUrl": "https://www.pastelescisnecakesandpastriescolorado.com/wp-content/gallery/quince-anos/Pastel-de-Quinceanera-en-Denver-CO-Pasteles-Cisne-4.jpeg",
+   "description": "Celebra un momento especial con nuestro pastel de quinceañera, decorado con elegancia y relleno de exquisita crema de vainilla y fresas frescas."
    },
    {
-    "id": 2,
-    "name": "Pastel de queso",
-    "imageUrl": "https://angellinares.es/137168-thickbox_default/tarta-queso-crema-premium-215kg-179g.jpg",
-    "description": "Delicioso postre clásico de la repostería, con una base de galleta crujiente y una suave y cremosa mezcla de queso crema, huevos, azúcar y vainilla."
+    "id": 7,
+    "name": "Pastel de carne",
+    "imageUrl": "https://cocinamia.com.mx/wp-content/uploads/2022/05/pastel.jpg",
+    "description": "Satisface tus antojos con nuestro pastel de carne, relleno con jugosos trozos de carne molida, cebolla, tomate y papas, todo envuelto en una masa de hojaldre dorada."
    },
    {
-    "id": 3,
-    "name": "Pastel de 3 leches",
-    "imageUrl": "https://static.wixstatic.com/media/ee6e5b_8a62aa980f634353b5569bc1c1239310~mv2.png/v1/fill/w_1474,h_1474,al_c/ee6e5b_8a62aa980f634353b5569bc1c1239310~mv2.png",
-    "description": "Este pastel latinoamericano es una deliciosa combinación de texturas y sabores. La base esponjosa se empapa en una mezcla de tres tipos de leche: leche evaporada, leche condensada y crema de leche."
+    "id": 8,
+    "name": "Pie de manzana",
+    "imageUrl": "https://www.comedera.com/wp-content/uploads/2015/02/receta-de-pie-de-manzana.jpg",
+    "description": "Disfruta de un sabor clásico con nuestro pie de manzana, con una masa hojaldrada y una irresistible mezcla de manzanas frescas, canela y azúcar."
    },
    {
-    "id": 4,
-    "name": "Pastel de fresa",
-    "imageUrl": "https://www.enchantedcakesandtreats.com/uploads/1/3/1/3/131310146/s200171920524587930_p146_i1_w1000.png",
-    "description": "Si buscas un pastel fresco y afrutado, este pastel de fresa es perfecto para ti. La base rellena con una capa generosa de mermelada de fresa fresca, y cubierta con una capa espesa de crema de queso."
+    "id": 9,
+    "name": "Pastel de calabaza",
+    "imageUrl": "https://i.ytimg.com/vi/AKwQ-t_2bOc/maxresdefault.jpg",
+    "description": "Descubre una explosión de sabores con nuestro pastel de calabaza, con una masa esponjosa y un relleno cremoso de puré de calabaza, canela y especias."
    },
    {
-    "id": 5,
-    "name": "Pastel de melocotón",
-    "imageUrl": "https://pasteleriamilano.com/wp-content/uploads/2017/04/Melocoton-con-Fresas.png",
-    "description": "Un pastel suave y esponjoso con un sabor dulce y afrutado a melocotón. La base esponjosa está rellena con trozos jugosos de melocotón y cubierta con una capa de crema batida. Perfecto para disfrutar en una tarde u ocasión casual."
+    "id": 10,
+    "name": "Pastel de bodas",
+    "imageUrl": "https://cdn0.matrimonio.com.co/article/9533/3_2/1280/jpg/3359-pastel-adornado-con-flores.jpeg",
+    "description": "Crea un momento inolvidable con nuestro pastel de bodas, elegante y exquisito, decorado a tu gusto y relleno de capas de bizcocho húmedo y cremosa mousse de vainilla y frutas frescas."
    }
  ],
  "thematics" : [
@@ -93,34 +93,34 @@
    "description": "Viaja por el universo con cada bocado de nuestro pastel. Su suave bizcocho y decoración en tonos cósmicos te transportarán a lo más profundo del cosmos. Perfecto para los amantes de la astronomía y los exploradores del espacio."
   },
   {
-    "id": 1,
-    "name": "Pastel de chocolate",
-    "imageUrl": "https://kathleenshop.com/wp-content/uploads/2021/06/Black-Foret-Cake-500gms-Rs480.png",
-    "description": "Este delicioso pastel está hecho con una suave y esponjosa masa de chocolate, cubierta con una rica y cremosa ganache de chocolate oscuro."
+    "id": 6,
+    "name": "Pastel temático Girasoles",
+    "imageUrl": "https://brigams.pe/wp-content/uploads/GIRASOL-FRONTAL-scaled.jpg",
+    "description": "Sumérgete en un jardín de sabor con nuestro pastel de girasoles, con capas de esponjoso bizcocho y exquisita crema de girasol."
    },
    {
-    "id": 2,
-    "name": "Pastel de queso",
-    "imageUrl": "https://angellinares.es/137168-thickbox_default/tarta-queso-crema-premium-215kg-179g.jpg",
-    "description": "Delicioso postre clásico de la repostería, con una base de galleta crujiente y una suave y cremosa mezcla de queso crema, huevos, azúcar y vainilla."
+    "id": 7,
+    "name": "Pastel temático Acuático",
+    "imageUrl": "https://i.pinimg.com/236x/f8/9b/a9/f89ba928589964b1ced12f539847bfe1--sea-cakes-fancy-cakes.jpg",
+    "description": "Explora los mares de la delicia con nuestro pastel acuático, decorado con un impresionante diseño de criaturas marinas en fondant y relleno de cremoso chocolate."
    },
    {
-    "id": 3,
-    "name": "Pastel de 3 leches",
-    "imageUrl": "https://static.wixstatic.com/media/ee6e5b_8a62aa980f634353b5569bc1c1239310~mv2.png/v1/fill/w_1474,h_1474,al_c/ee6e5b_8a62aa980f634353b5569bc1c1239310~mv2.png",
-    "description": "Este pastel latinoamericano es una deliciosa combinación de texturas y sabores. La base esponjosa se empapa en una mezcla de tres tipos de leche: leche evaporada, leche condensada y crema de leche."
+    "id": 8,
+    "name": "Pastel temático Retro",
+    "imageUrl": "https://i.pinimg.com/originals/1b/a6/86/1ba686c1021f640267047ec5c584a83e.jpg",
+    "description": "Haz un viaje en el tiempo con nuestro pastel retro, con un estilo colorido y vibrante de los años 80, con capas de bizcocho de vainilla y crema de mantequilla de fresa."
    },
    {
-    "id": 4,
-    "name": "Pastel de fresa",
-    "imageUrl": "https://www.enchantedcakesandtreats.com/uploads/1/3/1/3/131310146/s200171920524587930_p146_i1_w1000.png",
-    "description": "Si buscas un pastel fresco y afrutado, este pastel de fresa es perfecto para ti. La base rellena con una capa generosa de mermelada de fresa fresca, y cubierta con una capa espesa de crema de queso."
+    "id": 9,
+    "name": "Pastel temático Gamer",
+    "imageUrl": "https://pbs.twimg.com/media/FAOcsGNUYAI7us3.jpg:large",
+    "description": "Celebra tu pasión por los videojuegos con nuestro pastel gamer, decorado con detalles en fondant de los iconos de todo gamer y relleno de rica crema de chocolate y fresa."
    },
    {
-    "id": 5,
-    "name": "Pastel de melocotón",
-    "imageUrl": "https://pasteleriamilano.com/wp-content/uploads/2017/04/Melocoton-con-Fresas.png",
-    "description": "Un pastel suave y esponjoso con un sabor dulce y afrutado a melocotón. La base esponjosa está rellena con trozos jugosos de melocotón y cubierta con una capa de crema batida. Perfecto para disfrutar en una tarde u ocasión casual."
+    "id": 10,
+    "name": "Pastel temático CETD",
+    "imageUrl": "https://i.pinimg.com/736x/3d/b2/82/3db2820546b3ebbcdc7de85b5c3add71.jpg",
+    "description": "Experimenta la furia de sabores nordicos con nuestro pastel de cómo entrenar a tu dragón, con una espectacular decoración en fondant de Hippo y su gran compañero Chimuelo y un exquisito relleno de crema de vainilla."
    }
  ],
  "customized" : [
@@ -155,34 +155,34 @@
    "description" : "Disfruta la más dulce aventura con este pastel de Ladybug y Cat Noir. Decorado con diseños inspirados en los héroes más grandes de París. Perfecto para cualquier fan de la serie, este pastel es el complemento ideal para tu fiesta."
   },
   {
-    "id": 1,
-    "name": "Pastel de chocolate",
-    "imageUrl": "https://kathleenshop.com/wp-content/uploads/2021/06/Black-Foret-Cake-500gms-Rs480.png",
-    "description": "Este delicioso pastel está hecho con una suave y esponjosa masa de chocolate, cubierta con una rica y cremosa ganache de chocolate oscuro."
+    "id": 6,
+    "name": "Personalizado - My Melody",
+    "imageUrl": "https://pbs.twimg.com/media/FWsebP_WIAEw3KV.jpg",
+    "description": "Endulza tus momentos más tiernos con nuestro pastel de My Melody. Perfecto para cumpleaños y celebraciones con un toque dulce y adorable. ¡Pruébalo ahora!"
    },
    {
-    "id": 2,
-    "name": "Pastel de queso",
-    "imageUrl": "https://angellinares.es/137168-thickbox_default/tarta-queso-crema-premium-215kg-179g.jpg",
-    "description": "Delicioso postre clásico de la repostería, con una base de galleta crujiente y una suave y cremosa mezcla de queso crema, huevos, azúcar y vainilla."
+    "id": 7,
+    "name": "Personalizado - Harry Potter",
+    "imageUrl": "https://elcomercio.pe/resizer/2QzHIUMSIJ_09iQ8xEV7ry85Pyo=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/SYZV2D2ARJFSRLO2QKE5SAV7UM.jpg",
+    "description": "¡Sorprende a tus invitados con un icono de la historia del niño que sobrevivió! Celebra tu cumpleaños con nuestro pastel inspirado en Harry Potter ¡Haz de tu fiesta algo mágico!"
    },
    {
-    "id": 3,
-    "name": "Pastel de 3 leches",
-    "imageUrl": "https://static.wixstatic.com/media/ee6e5b_8a62aa980f634353b5569bc1c1239310~mv2.png/v1/fill/w_1474,h_1474,al_c/ee6e5b_8a62aa980f634353b5569bc1c1239310~mv2.png",
-    "description": "Este pastel latinoamericano es una deliciosa combinación de texturas y sabores. La base esponjosa se empapa en una mezcla de tres tipos de leche: leche evaporada, leche condensada y crema de leche."
+    "id": 8,
+    "name": "Personalizado - Shrek",
+    "imageUrl": "https://i.pinimg.com/736x/9f/cd/a7/9fcda7897996f342a02b8aedac595081.jpg",
+    "description": "¡El pastel más delicioso y divertido que hayas probado! Con su increíble sabor y decoración ¡hasta el mismísimo Shrek lo aprobaría!"
    },
    {
-    "id": 4,
-    "name": "Pastel de fresa",
-    "imageUrl": "https://www.enchantedcakesandtreats.com/uploads/1/3/1/3/131310146/s200171920524587930_p146_i1_w1000.png",
+    "id": 9,
+    "name": "Personalizado - Cars",
+    "imageUrl": "https://i.pinimg.com/originals/16/0e/dd/160edd4d188ca6dba3adffcf42045eee.jpg",
     "description": "Si buscas un pastel fresco y afrutado, este pastel de fresa es perfecto para ti. La base rellena con una capa generosa de mermelada de fresa fresca, y cubierta con una capa espesa de crema de queso."
    },
    {
-    "id": 5,
-    "name": "Pastel de melocotón",
-    "imageUrl": "https://pasteleriamilano.com/wp-content/uploads/2017/04/Melocoton-con-Fresas.png",
-    "description": "Un pastel suave y esponjoso con un sabor dulce y afrutado a melocotón. La base esponjosa está rellena con trozos jugosos de melocotón y cubierta con una capa de crema batida. Perfecto para disfrutar en una tarde u ocasión casual."
+    "id": 10,
+    "name": "Personalizado - Fútbol",
+    "imageUrl": "https://media.istockphoto.com/id/1058558528/es/foto/anivers%C3%A1rio-de-bolo.jpg?s=612x612&w=0&k=20&c=8vKssMfyaSrDCv10du16R8782TjsmTQJA605NeIMeyA=",
+    "description": "¡Celebra un gol más con nuestro pastel futbolista! Su deliciosa y cremosa masa más su decoración con crema de verde-blanco harán que cada ocasión sea una supercopa."
    }
  ]
 }

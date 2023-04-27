@@ -5,7 +5,7 @@ const Request = () => {
 
   return (
    <div className="text-white" id="contact">
-    <h5 className="text-center fw-bold mt-5 pt-5"> Solicita tu pan de pastel </h5>
+    <h1 className="text-center text-white mt-5 pt-5"> Solicita tu pan de pastel </h1>
      <div className="contact_container mt-4">
       <div className="form_container">
        <h3 className="fw-bold"> Su Mensaje </h3>
@@ -17,7 +17,7 @@ const Request = () => {
        </form>
       </div>
       <div className="map">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d73757.93698706181!2d-89.22048213978817!3d13.692747932243856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ssv!4v1681339476258!5m2!1ses!2ssv" style={{ border: 0 }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"> </iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294919.64172042813!2d-89.34718695588452!3d13.781822242595675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632379f72eb98f%3A0xc2114cd30ea96124!2sLa%20Libertad!5e0!3m2!1ses!2ssv!4v1682554838368!5m2!1ses!2ssv" width="600" height="450" style={{border:0}}></iframe>
       </div>
      </div>
     </div>

@@ -25,7 +25,7 @@ $(document).ready(function () {
    }).then(
     Toast.fire({
      icon: 'info',
-     iconColor: '#05B0FF',
+     iconColor: '#B4B3FF',
      title: 'Successfully sent message'
     })
    );

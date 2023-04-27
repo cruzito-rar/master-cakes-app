@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../styles/Request.css';
 
 const Request = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
    <div className="text-white" id="contact">

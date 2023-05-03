@@ -16,7 +16,7 @@
    "id": 3,
    "name": "Pastel de 3 leches",
    "imageUrl": "https://www.recetasderechupete.com/wp-content/uploads/2020/11/Pastel-tres-leches-portada-2-scaled.jpg",
-   "description": "Este pastel latinoamericano es una deliciosa combinación de texturas y sabores. La base esponjosa se empapa en una mezcla de tres tipos de leche: leche evaporada, leche condensada y crema de leche."
+   "description": "Este pastel es una deliciosa combinación de texturas y sabores. La base esponjosa se empapa en una mezcla de tres tipos de leche: leche evaporada, leche condensada y crema de leche."
   },
   {
    "id": 4,
@@ -28,7 +28,7 @@
    "id": 5,
    "name": "Pastel de melocotón",
    "imageUrl": "https://www.pasteleite.com/wp-content/uploads/2020/05/torta-de-duraznos.jpg",
-   "description": "Un pastel suave y esponjoso con un sabor dulce y afrutado a melocotón. La base esponjosa está rellena con trozos jugosos de melocotón y cubierta con una capa de crema batida. Perfecto para disfrutar en una tarde u ocasión casual."
+   "description": "Un pastel suave, dulce y esponjoso. La base esponjosa está rellena con trozos jugosos de melocotón y cubierta con una capa de crema batida. Perfecto para disfrutar en una tarde u ocasión casual."
   },
   {
    "id": 6,
@@ -40,7 +40,7 @@
     "id": 7,
     "name": "Pastel de caramelo",
     "imageUrl": "https://content-cocina.lecturas.com/medio/2020/10/01/pastel-de-caramelo-con-palomitas_4b930549_800x800.jpg",
-    "description": ""
+    "description": "Su esponjosa textura y sabor a caramelo se complementan perfectamente con el toque de las palomitas de maíz. Una combinación única que cautivará a cualquier paladar goloso."
    },
    {
     "id": 8,
@@ -65,7 +65,7 @@
    "id": 1,
    "name": "Pastel temático Halloween",
    "imageUrl": "https://i.pinimg.com/736x/82/ee/d9/82eed91b2ac802e1c564f811d15943eb.jpg",
-   "description": "Celebra con este pastel, perfecto para Halloween. Con su base de bizcocho de chocolate y su frosting de vainilla, este pastel es la deliciosa representación del horror ¡Haz que tu celebración sea aún más espeluznante y sabrosa con este pastel temático de Halloween!"
+   "description": "Con su base de bizcocho de chocolate y su frosting de vainilla, este pastel es la deliciosa representación del horror ¡Haz tu celebración aún más espeluznante y sabrosa con este pastel!"
   },
   {
    "id": 2,
@@ -83,13 +83,13 @@
    "id": 4,
    "name": "Pastel temático Playa",
    "imageUrl": "https://i.pinimg.com/originals/27/aa/0a/27aa0a2ac54918e595264dd87190f90c.jpg",
-   "description": "Sumérgete en el sabor del verano con nuestro pastel playero. Deléitate con un sabor húmedo y refrescante, cubierto de fondant saborizado de coco y adornado con detalles de arena, conchas y estrellas de mar de azúcar. Perfecto para fiestas o celebraciones tropicales."
+   "description": "Sumérgete en el sabor del verano con este pastel y deléitate con su refrescante sabor, cubierto de fondant de coco y adornado con detalles de arena, conchas y demás. Perfecto para fiestas o celebraciones tropicales."
   },
   {
    "id": 5,
    "name": "Pastel temático Espacio",
    "imageUrl": "https://i.pinimg.com/originals/c3/d4/3c/c3d43c9004cbb77d7bbbec51b1a39414.png",
-   "description": "Viaja por el universo con cada bocado de nuestro pastel. Su suave bizcocho y decoración en tonos cósmicos te transportarán a lo más profundo del cosmos. Perfecto para los amantes de la astronomía y los exploradores del espacio."
+   "description": "Viaja por el universo en cada bocado de nuestro pastel. Su textura y decoración en tonos cósmicos te transportarán a lo más profundo del cosmos. Perfecto para los amantes del espacio."
   },
   {
     "id": 6,
@@ -119,7 +119,7 @@
     "id": 10,
     "name": "Pastel temático CETD",
     "imageUrl": "https://i.pinimg.com/736x/3d/b2/82/3db2820546b3ebbcdc7de85b5c3add71.jpg",
-    "description": "Experimenta la furia de sabores nordicos con nuestro pastel de cómo entrenar a tu dragón, con una espectacular decoración en fondant de Hippo y su gran compañero Chimuelo y un exquisito relleno de crema de vainilla."
+    "description": "Experimenta la furia de sabores nordicos con nuestro pastel de cómo entrenar a tu dragón, con una espectacular decoración en fondant de Hippo y Chimuelo."
    }
  ],
  "customized" : [
@@ -127,7 +127,7 @@
    "id" : 1,
    "name" : "Personalizado - Naruto",
    "imageUrl" : "https://i.pinimg.com/originals/54/82/bd/5482bd41d1a5c2543dc772d3ab4fe4dd.jpg",
-   "description" : "Celebra como un Ninja con este pastel personalizado de Naruto. Con su bizcocho de vainilla y cubierta de chocolate, este pastel es perfecto para cualquier fan del anime. ¡Sorprende a tus amigos y familiares con este pastel temático en tu próxima celebración!"
+   "description" : "Celebra como un ninja con este pastel de Naruto. Con su pan de vainilla y cubierta de chocolate ¡Sorprende a tus amigos y familiares con este pastel temático en tu próxima celebración!"
   },
   {
    "id" : 2,
@@ -139,19 +139,19 @@
    "id" : 3,
    "name" : "Personalizado - Beastars",
    "imageUrl" : "https://pbs.twimg.com/media/Elk3u_qU4AMnejM.jpg",
-   "description" : "Este pastel es una delicia para los fans del. Con su bizcocho suave y una capa de glaseado de turrón, está decorado con los personajes principales del anime. Desde Legoshi hasta Haru, este pastel seguro será un éxito en cualquier celebración."
+   "description" : "Con su pan de vainilla suave y una capa de glaseado de turrón, está decorado con los personajes principales del anime. Este pastel seguro será un éxito en cualquier celebración."
   },
   {
    "id" : 4,
    "name" : "Personalizado - Barbie",
    "imageUrl" : "https://d2r9epyceweg5n.cloudfront.net/stores/002/197/435/products/barbie-2-pisos1-3cbaea94d8ccd5bd0f16737279429900-1024-1024.webp",
-   "description" : "Este pastel de Barbie es el sueño hecho realidad. Con una textura suave y esponjosa y una cubierta de fondant blanca con turrón rosado, es perfecto para cualquier ocasión especial. La figura de Barbie en la parte superior lo convierte en un impresionante centro de atención."
+   "description" : "Este pastel es un sueño hecho realidad. Con una textura suave y esponjosa y una cubierta de fondant blanca con turrón rosado, es perfecto para cualquier ocasión. Excelente para ser el centro de atención."
   },
   {
    "id" : 5,
    "name" : "Personalizado - Ladybug",
    "imageUrl" : "https://pm1.narvii.com/6552/b7bd6bb90fa08c4e5db89422de742075ce8b8a38_hq.jpg",
-   "description" : "Disfruta la más dulce aventura con este pastel de Ladybug y Cat Noir. Decorado con diseños inspirados en los héroes más grandes de París. Perfecto para cualquier fan de la serie, este pastel es el complemento ideal para tu fiesta."
+   "description" : "Disfruta una dulce aventura con este pastel de Ladybug y Cat Noir. Decorado con diseños de los héroes más grandes de París. Perfecto para cualquier fan, este pastel es ideal para tu fiesta."
   },
   {
     "id": 6,

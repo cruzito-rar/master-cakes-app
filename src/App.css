@@ -57,14 +57,18 @@ hr {
   cursor: pointer;
  }
 
-.card .product-card {
- border-radius: 25px;
+.product-card {
+ border-radius: 10px;
  overflow: hidden;
  position: relative;
- height: 280px;
+ height: 285px;
  box-shadow: 18px 22px 31px -12px rgba(0, 0, 0, .52);
  -webkit-box-shadow: 18px 22px 31px -12px rgba(0, 0, 0, .52);
  -moz-box-shadow: 18px 22px 31px -12px rgba(0, 0, 0, .52);
+}
+
+.product-card .card-img-top {
+ height: 85%;
 }
 
 .product-card .overlay {

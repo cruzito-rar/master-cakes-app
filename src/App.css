@@ -85,16 +85,35 @@ hr {
   pointer-events: none;
 }
 
-
 .product-card:hover .overlay {
  opacity: 1;
  transform: translateY(0);
 }
 
+.card.mision {
+ visibility: hidden;
+}
+
+.card.mision h1, p {
+  visibility: visible;
+}
+
+.card.mision h1 {
+ color: #FFFFFF;
+}
 
 @media (max-width: 1000px), (max-width: 900px), (max-width: 767px), (max-width: 500px), (max-width: 400px) {
  body {
   background-size: 100vw 100vh;
+ }
+
+ .card.mision {
+  visibility: visible;
+  border-radius: 25px;
+ }
+
+ .card.mision h1 {
+  color: #000000;
  }
 }
 
@@ -169,4 +188,9 @@ hr {
    margin-top: 50px;
    margin-left: 3vw !important;
   }
+
+ .card.mision {
+  visibility: visible;
+  border-radius: 25px;
+ }
 }

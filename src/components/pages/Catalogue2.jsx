@@ -25,7 +25,7 @@ const Catalogue2 = () => {
               <h6 className="text-center pt-2"> {cake.name} </h6>
               <div className="overlay rounded w-100">
                 <h5 className="card-title text-center">{cake.name}</h5>
-                <p className="card-text text-center mt-5 text-white">{cake.description}</p>
+                <p className="card-text text-center mt-3 text-white">{cake.description}</p>
               </div>
             </div>
           </div>

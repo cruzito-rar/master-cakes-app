@@ -159,8 +159,14 @@ hr {
     margin-top: 50px;
     margin-left: 0vw;
   }
-   .contact {
-    margin-top: 50px;
-    margin-left: 3vw !important;
-   }
+
+  .product-card {
+   width: 75%;
+   margin-left: 13%;
+  }
+
+  .contact {
+   margin-top: 50px;
+   margin-left: 3vw !important;
+  }
 }

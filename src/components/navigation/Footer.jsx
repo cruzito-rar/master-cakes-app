@@ -38,7 +38,7 @@ const Footer = () => {
    </div>
    <div>
    <hr/>
-    <p className="text-center pb-0"> Copyright 2023. Master cakes pasteleria El Salvador. Todos los derechos reservados.
+    <p className="text-center pb-0"> &#169; Copyright 2023. Master cakes pastelería - El Salvador. Todos los derechos reservados.
     </p>
    </div>
   </footer>

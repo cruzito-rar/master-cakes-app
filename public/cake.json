@@ -3,14 +3,14 @@
   {
    "id": 1,
    "name": "Pastel de chocolate",
-   "imageUrl": "https://animalgourmet.com/wp-content/uploads/2020/05/chocolate-1121356_1920-e1589323566354.jpg",
+   "imageUrl": "https://donamaria.com.br/wp-content/uploads/2020/10/119667634_2752204955067886_7739037335102047089_o.jpg",
    "description": "Este delicioso pastel está hecho con una suave y esponjosa masa de chocolate, cubierta con una rica y cremosa ganache de chocolate oscuro."
   },
   {
    "id": 2,
-   "name": "Pastel de queso",
-   "imageUrl": "https://i.blogs.es/75907e/tarta_queso_philadelphia-min/1366_2000.jpeg",
-   "description": "Delicioso postre clásico de la repostería, con una base de galleta crujiente y una suave y cremosa mezcla de queso crema, huevos, azúcar y vainilla."
+   "name": "Pastel de cumpleaños",
+   "imageUrl": "https://wiltonenespanol.com/wp-content/uploads/2020/11/Sprinkle-on-the-Fun-Birthday-Cake.jpg",
+   "description": ""
   },
   {
    "id": 3,
@@ -38,21 +38,20 @@
    },
    {
     "id": 7,
-    "name": "Pastel de carne",
-    "imageUrl": "https://cocinamia.com.mx/wp-content/uploads/2022/05/pastel.jpg",
-    "description": "Satisface tus antojos con nuestro pastel de carne, relleno con jugosos trozos de carne molida, cebolla, tomate y papas, todo envuelto en una masa de hojaldre dorada."
+    "name": "Pastel de caramelo",
+    "imageUrl": "https://content-cocina.lecturas.com/medio/2020/10/01/pastel-de-caramelo-con-palomitas_4b930549_800x800.jpg",
+    "description": ""
    },
    {
     "id": 8,
-    "name": "Pie de manzana",
-    "imageUrl": "https://www.comedera.com/wp-content/uploads/2015/02/receta-de-pie-de-manzana.jpg",
-    "description": "Disfruta de un sabor clásico con nuestro pie de manzana, con una masa hojaldrada y una irresistible mezcla de manzanas frescas, canela y azúcar."
+    "name": "Pastel de coco",
+    "imageUrl": "https://images.hola.com/imagenes/cocina/recetas/20230208226055/tarta-coco-merengue/1-201-364/tarta-coco-age-t.jpg"
    },
    {
     "id": 9,
-    "name": "Pastel de calabaza",
-    "imageUrl": "https://i.ytimg.com/vi/AKwQ-t_2bOc/maxresdefault.jpg",
-    "description": "Descubre una explosión de sabores con nuestro pastel de calabaza, con una masa esponjosa y un relleno cremoso de puré de calabaza, canela y especias."
+    "name": "Pastel para baby shower",
+    "imageUrl": "https://tutusparafiestas.com/wp-content/uploads/2016/04/Pasteles-para-baby-shower-de-ni%C3%B1o-20.jpg",
+    "description": ""
    },
    {
     "id": 10,

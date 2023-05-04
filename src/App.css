@@ -109,11 +109,16 @@ hr {
 
  .card.mision {
   visibility: visible;
-  border-radius: 25px;
+  background-color: #FFFFFFCE;
  }
 
  .card.mision h1 {
   color: #000000;
+  margin-top: 25px;
+ }
+
+ .card.mision p {
+  padding: 15px;
  }
 }
 
@@ -191,6 +196,10 @@ hr {
 
  .card.mision {
   visibility: visible;
-  border-radius: 25px;
+  background-color: #FFFFFFCE !important;
+ }
+
+ .card.mision p {
+  padding: 15px;
  }
 }

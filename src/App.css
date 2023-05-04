@@ -181,7 +181,7 @@ hr {
 
   .card-container  .col:nth-child(1), .card-container .col:nth-child(2), .card-container .col:nth-child(3) {
     margin-top: 50px;
-    margin-left: 0vw;
+    margin-left: -2vw;
   }
 
   .product-card {

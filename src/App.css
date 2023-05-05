@@ -19,6 +19,14 @@ body {
  background-image: url(../public/bg.png);
  background-size: 100vw 100vh;
  background-repeat: no-repeat;
+ -ms-overflow-style: none;
+ scrollbar-width: none;
+}
+
+body::-ms-scrollbar {
+ width: 0;
+ height: 0;
+ background-color: transparent;
 }
 
 hr {

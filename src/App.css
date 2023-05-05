@@ -104,6 +104,7 @@ hr {
 
 .card.mision {
  visibility: hidden;
+ cursor: default;
 }
 
 .card.mision h1, p {

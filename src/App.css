@@ -203,3 +203,12 @@ hr {
   padding: 15px;
  }
 }
+
+/* inhabilitar el modo oscuro forzado */
+
+@media (prefers-color-scheme: dark) {
+ body {
+  background-color: #FFFFFF;
+  color: #000000;
+ }
+}

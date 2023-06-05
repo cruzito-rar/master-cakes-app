@@ -8,13 +8,13 @@ const Footer = () => {
    <div className="container">
     <div className="row d-flex align-items-center">
       <div className="col-12 col-md-3 mb-3 mb-md-0 text-center">
-        <img src="../logo.png" width="120px"/>
+        <img src="../logo.png" width="120px" alt="Master Cakes Logo"/>
       </div>
       <div className="col-12 col-md-4 mb-3 mb-md-0 text-center">
         <h3>Contáctanos</h3>
         <ul className="list-unstyled">
-          <li> <i className="fas fa-envelope"> </i> Correo: <a href="mailto:pedidosmc@gmail.com"> pedidosmc@gmail.com </a> </li>
-          <li> <i className="fas fa-phone"> </i> Teléfono para empresas: <a href="tel:+503 1234-5678"> +503 2274-5218 </a> </li>
+          <li> <i className="fas fa-envelope"> </i> Correo: <Link to="mailto:pedidosmc@gmail.com"> pedidosmc@gmail.com </Link> </li>
+          <li> <i className="fas fa-phone"> </i> Teléfono para empresas: <Link to="tel:+503 1234-5678"> +503 2274-5218 </Link> </li>
           <li> <i className="fas fa-map-marker-alt"> </i> Dirección: Calle Gerardo Barrios y Ave. Simón Bolivar No. 21-7, La Libertad </li>
         </ul>
       </div>

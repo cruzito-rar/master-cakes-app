@@ -25,7 +25,7 @@ const Home = () => {
           </p>
           <img
             src="https://kathleenshop.com/wp-content/uploads/2021/09/Piano-Theme-Cake-Rs-650-per-pond.png"
-            alt="Cake photo"
+            alt="Piano theme cake"
          />
         </div>
       </div>
@@ -34,12 +34,13 @@ const Home = () => {
         <h5 className="productos mb-4"> Nuestros productos </h5>
         <div className="row mb-5 ">
           <div className="col d-flex justify-content-center mb-3">
-            <Link to="/online-catalogue">
+            <Link href="/online-catalogue">
               <div className="card h-100">
                 <div className="card-title rounded-top bg-light">
                   <img
                     className="rounded-top"
                     src="https://thumbs.dreamstime.com/b/una-rebanada-de-pastel-chocolate-sirviendo-con-polvo-cacao-en-la-bandeja-cer%C3%A1mica-marr%C3%B3n-circular-sobre-mesa-oscuro-caf%C3%A9-196514985.jpg"
+                    alt="Pastel de chocolate"
                  />
                 </div>
 
@@ -66,6 +67,7 @@ const Home = () => {
                   <img
                     className="card-img-top"
                     src="https://content-cocina.lecturas.com/medio/2018/07/19/paso-a-paso-para-hacer-una-tarta-de-halloween-con-crema-de-cacao-resultado-final_70891608_800x800.jpg"
+                    alt="tarta de Halloween"
                  />
                 </div>
                 <div className="card-body">
@@ -86,6 +88,7 @@ const Home = () => {
                   <img
                     className="card-img-top"
                     src="https://latartaalpunto.com/web/wp-content/uploads/2020/07/pastel-de-unicornio.jpg"
+                    alt="Pastel de unicornio"
                  />
                 </div>
                 <div className="card-body">

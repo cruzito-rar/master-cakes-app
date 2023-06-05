@@ -21,7 +21,7 @@ const Catalogue = () => {
         {cakes.map((cake) => (
           <div key={cake.id} className="col mb-4">
             <div className="card product-card border-0">
-              <img src={cake.imageUrl} className="card-img-top" alt={cake.name} />
+              <img src={cake.imageUrl} className="card-img-top" alt={cake.name}/>
               <h6 className="text-center pt-2"> {cake.name} </h6>
               <div className="overlay rounded w-100">
                 <h5 className="card-title text-center">{cake.name}</h5>

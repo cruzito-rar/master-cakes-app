@@ -4,61 +4,91 @@
    "id": 1,
    "name": "Pastel de chocolate",
    "imageUrl": "https://donamaria.com.br/wp-content/uploads/2020/10/119667634_2752204955067886_7739037335102047089_o.jpg",
-   "description": "Este delicioso pastel está hecho con una suave y esponjosa masa de chocolate, cubierta con una rica y cremosa ganache de chocolate oscuro."
+   "description": "Este delicioso pastel está hecho con una suave y esponjosa masa de chocolate, cubierta con una rica y cremosa ganache de chocolate oscuro.",
+   "price": 8.85,
+   "category": "cake",
+   "quantity": 1
   },
   {
    "id": 2,
    "name": "Pastel de cumpleaños",
    "imageUrl": "https://wiltonenespanol.com/wp-content/uploads/2020/11/Sprinkle-on-the-Fun-Birthday-Cake.jpg",
-   "description": "Sorprende a tus invitados con nuestros sabores clásicos e innovadores. Solicita tu pastel preferido. Haz de tu cumpleaños una ocasión inolvidable con nuestros pasteles."
+   "description": "Sorprende a tus invitados con nuestros sabores clásicos e innovadores. Solicita tu pastel preferido. Haz de tu cumpleaños una ocasión inolvidable con nuestros pasteles.",
+   "price": 15.95,
+   "category": "cake",
+   "quantity": 1
   },
   {
    "id": 3,
    "name": "Pastel de 3 leches",
    "imageUrl": "https://www.recetasderechupete.com/wp-content/uploads/2020/11/Pastel-tres-leches-portada-2-scaled.jpg",
-   "description": "Este pastel es una deliciosa combinación de texturas y sabores. La base esponjosa se empapa en una mezcla de tres tipos de leche: leche evaporada, leche condensada y crema de leche."
+   "description": "Este pastel es una deliciosa combinación de texturas y sabores. La base esponjosa se empapa en una mezcla de tres tipos de leche: leche evaporada, leche condensada y crema de leche.",
+   "price": 12,
+   "category": "cake",
+   "quantity": 1
   },
   {
    "id": 4,
    "name": "Pastel de fresa",
    "imageUrl": "https://d1kxxrc2vqy8oa.cloudfront.net/wp-content/uploads/2019/08/15111756/RFB-0708-3-tortadefresas.jpg",
-   "description": "Si buscas un pastel fresco y afrutado, este pastel de fresa es perfecto para ti. La base rellena con una capa generosa de mermelada de fresa fresca, y cubierta con una capa espesa de crema de queso."
+   "description": "Si buscas un pastel fresco y afrutado, este pastel de fresa es perfecto para ti. La base rellena con una capa generosa de mermelada de fresa fresca, y cubierta con una capa espesa de crema de queso.",
+   "price": 10.25,
+   "category": "cake",
+   "quantity": 1
   },
   {
    "id": 5,
    "name": "Pastel de melocotón",
    "imageUrl": "https://www.pasteleite.com/wp-content/uploads/2020/05/torta-de-duraznos.jpg",
-   "description": "Un pastel suave, dulce y esponjoso. La base esponjosa está rellena con trozos jugosos de melocotón y cubierta con una capa de crema batida. Perfecto para disfrutar en una tarde u ocasión casual."
+   "description": "Un pastel suave, dulce y esponjoso. La base esponjosa está rellena con trozos jugosos de melocotón y cubierta con una capa de crema batida. Perfecto para disfrutar en una tarde u ocasión casual.",
+   "price": 12.35,
+   "category": "cake",
+   "quantity": 1
   },
   {
    "id": 6,
    "name": "Pastel de quinceañera",
    "imageUrl": "https://www.pastelescisnecakesandpastriescolorado.com/wp-content/gallery/quince-anos/Pastel-de-Quinceanera-en-Denver-CO-Pasteles-Cisne-4.jpeg",
-   "description": "Celebra un momento especial con nuestro pastel de quinceañera, decorado con elegancia y relleno de exquisita crema de vainilla y fresas frescas."
+   "description": "Celebra un momento especial con nuestro pastel de quinceañera, decorado con elegancia y relleno de exquisita crema de vainilla y fresas frescas.",
+   "price": 25.50,
+   "category": "cake",
+   "quantity": 1
    },
    {
     "id": 7,
     "name": "Pastel de caramelo",
     "imageUrl": "https://content-cocina.lecturas.com/medio/2020/10/01/pastel-de-caramelo-con-palomitas_4b930549_800x800.jpg",
-    "description": "Su esponjosa textura y sabor a caramelo se complementan perfectamente con el toque de las palomitas de maíz. Una combinación única que cautivará a cualquier paladar goloso."
+    "description": "Su esponjosa textura y sabor a caramelo se complementan perfectamente con el toque de las palomitas de maíz. Una combinación única que cautivará a cualquier paladar goloso.",
+    "price": 11,
+    "category": "cake",
+    "quantity": 1
    },
    {
     "id": 8,
     "name": "Pastel de coco",
     "imageUrl": "https://images.hola.com/imagenes/cocina/recetas/20230208226055/tarta-coco-merengue/1-201-364/tarta-coco-age-t.jpg",
-    "description" : "Deléitate con nuestro exquisito pastel de coco, cubierto por fondant de vainilla y relleno de coco. Una explosión tropical de sabor en cada bocado."
+    "description" : "Deléitate con nuestro exquisito pastel de coco, cubierto por fondant de vainilla y relleno de coco. Una explosión tropical de sabor en cada bocado.",
+    "price": 11.30,
+    "category": "cake",
+    "quantity": 1
    },
    {
     "id": 9,
     "name": "Pastel para baby shower",
     "imageUrl": "https://tutusparafiestas.com/wp-content/uploads/2016/04/Pasteles-para-baby-shower-de-ni%C3%B1o-20.jpg",
-    "description": "¡Celebra la llegada del nuevo miembro de la familia con nuestros deliciosos pasteles de baby shower! Sabores únicos y decoraciones únicas."
+    "description": "¡Celebra la llegada del nuevo miembro de la familia con nuestros deliciosos pasteles de baby shower! Sabores únicos y decoraciones únicas.",
+    "price": 18.55,
+    "category": "cake",
+    "quantity": 1
    },
    {
     "id": 10,
     "name": "Pastel de bodas",
     "imageUrl": "https://cdn0.matrimonio.com.co/article/9533/3_2/1280/jpg/3359-pastel-adornado-con-flores.jpeg",
-    "description": "Crea un momento inolvidable con nuestro pastel de bodas, elegante y exquisito, decorado a tu gusto y relleno de capas de bizcocho húmedo y cremosa mousse de vainilla y frutas frescas."
+    "description": "Crea un momento inolvidable con nuestro pastel de bodas, elegante y exquisito, decorado a tu gusto y relleno de capas de bizcocho húmedo y cremosa mousse de vainilla y frutas frescas.",
+    "price": 25.70,
+    "category": "cake",
+    "quantity": 1
    }
  ],
  "thematics" : [

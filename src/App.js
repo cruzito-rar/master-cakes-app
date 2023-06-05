@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import Navbar from './components/navigation/Navbar';
 import Home from './components/pages/Home';
 import Catalogue from './components/pages/Catalogue';
@@ -11,25 +12,39 @@ import Shipments from './components/pages/Shipments';
 import Privacy from './components/pages/Privacy';
 import Return from './components/pages/Return';
 import Footer from './components/navigation/Footer';
+import { useAddDecrease } from './components/functions/Add_Decrease';
 
-function App() {
- return (
-  <Router>
-   <Navbar/>
-    <Routes>
-     <Route exact path='/' Component={Home}/>
-     <Route path='/online-catalogue' Component={Catalogue}/>
-     <Route path='/thematics-catalogue' Component={Catalogue1}/>
-     <Route path='/customized-catalogue' Component={Catalogue2}/>
-     <Route path='/about' Component={About}/>
-     <Route path='/mision-vision' Component={Mision}/>
-     <Route path='/shipments-policy' Component={Shipments}/>
-     <Route path='/privacy-policy' Component={Privacy}/>
-     <Route path='/return-policy' Component={Return}/>
-    </Routes>
-   <Footer/>
-  </Router>
- );
+const App = () => {
+  const [cartQuantity, setCartQuantity] = useState(0);
+  const { quantity, increaseQuantity, decreaseQuantity } = useAddDecrease();
+  const [selectedCakes, setSelectedCakes] = useState([]);
+  const [total, setTotal] = useState(0);
+
+  useEffect(() => {
+    setCartQuantity(quantity);
+  }, [quantity]);
+
+  useEffect(() => {
+    setCartQuantity(selectedCakes.length);
+  }, [selectedCakes]);
+
+  return (
+    <Router>
+     <Navbar quantity={quantity} decreaseQuantity={decreaseQuantity} selectedCakes={selectedCakes} setSelectedCakes={setSelectedCakes} total={total} setTotal={setTotal}/>
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+        <Route path='/online-catalogue' element={<Catalogue quantity={cartQuantity} increaseQuantity={increaseQuantity} decreaseQuantity={decreaseQuantity} setSelectedCakes={setSelectedCakes} selectedCakes={selectedCakes} total={total} setTotal={setTotal}/>}/>
+        <Route path='/thematics-catalogue' element={<Catalogue1/>}/>
+        <Route path='/customized-catalogue' element={<Catalogue2/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/mision-vision' element={<Mision/>}/>
+        <Route path='/shipments-policy' element={<Shipments/>}/>
+        <Route path='/privacy-policy' element={<Privacy/>}/>
+        <Route path='/return-policy' element={<Return/>}/>
+      </Routes>
+      <Footer/>
+    </Router>
+  );
 }
 
 export default App;

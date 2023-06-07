@@ -93,126 +93,186 @@
  ],
  "thematics" : [
   {
-   "id": 1,
-   "name": "Pastel temático Halloween",
+   "id": 11,
+   "name": "Temático Halloween",
    "imageUrl": "https://i.pinimg.com/736x/82/ee/d9/82eed91b2ac802e1c564f811d15943eb.jpg",
-   "description": "Con su base de bizcocho de chocolate y su frosting de vainilla, este pastel es la deliciosa representación del horror ¡Haz tu celebración aún más espeluznante y sabrosa con este pastel!"
+   "description": "Con su base de bizcocho de chocolate y su frosting de vainilla, este pastel es la deliciosa representación del horror ¡Haz tu celebración aún más espeluznante y sabrosa con este pastel!",
+   "price": 25.70,
+    "category": "cake",
+    "quantity": 1
   },
   {
-   "id": 2,
-   "name": "Pastel temático Dinosaurios",
+   "id": 12,
+   "name": "Temático Dinosaurios",
    "imageUrl": "https://minilook.com.ar/wp-content/uploads/2021/01/torta-de-dinosaurios-para-ninos-grandes.jpg",
-   "description": "Sorprende a tus aventureros con un delicioso pastel de dinosaurios. Ddecorado con una escena prehistórica de fondant. ¡Una dulce y jurasica aventura para celebrar!"
+   "description": "Sorprende a tus aventureros con un delicioso pastel de dinosaurios. Ddecorado con una escena prehistórica de fondant. ¡Una dulce y jurasica aventura para celebrar!",
+   "price": 25.70,
+    "category": "cake",
+    "quantity": 1
   },
   {
-   "id": 3,
-   "name": "Pastel temático Gatitos",
+   "id": 13,
+   "name": "Temático Gatitos",
    "imageUrl": "https://i.pinimg.com/originals/fc/41/50/fc41506bbffa609c727bcff550e477c0.jpg",
-   "description": "Este pastel de gatitos está hecho con bizcocho esponjoso de vainilla y cubierto con una deliciosa capa fondant saborizado de queso. ¡Disfruta de la dulzura felina en tu próxima celebración!"
+   "description": "Este pastel de gatitos está hecho con bizcocho esponjoso de vainilla y cubierto con una deliciosa capa fondant saborizado de queso. ¡Disfruta de la dulzura felina en tu próxima celebración!",
+   "price": 25.70,
+    "category": "cake",
+    "quantity": 1
   },
   {
-   "id": 4,
-   "name": "Pastel temático Playa",
+   "id": 14,
+   "name": "Temático Playa",
    "imageUrl": "https://i.pinimg.com/originals/27/aa/0a/27aa0a2ac54918e595264dd87190f90c.jpg",
-   "description": "Sumérgete en el sabor del verano con este pastel y deléitate con su refrescante sabor, cubierto de fondant de coco y adornado con detalles de arena, conchas y demás. Perfecto para fiestas o celebraciones tropicales."
+   "description": "Sumérgete en el sabor del verano con este pastel y deléitate con su refrescante sabor, cubierto de fondant de coco y adornado con detalles de arena, conchas y demás. Perfecto para fiestas o celebraciones tropicales.",
+   "price": 25.70,
+    "category": "cake",
+    "quantity": 1
   },
   {
-   "id": 5,
-   "name": "Pastel temático Espacio",
+   "id": 15,
+   "name": "Temático Espacio",
    "imageUrl": "https://i.pinimg.com/originals/c3/d4/3c/c3d43c9004cbb77d7bbbec51b1a39414.png",
-   "description": "Viaja por el universo en cada bocado de nuestro pastel. Su textura y decoración en tonos cósmicos te transportarán a lo más profundo del cosmos. Perfecto para los amantes del espacio."
+   "description": "Viaja por el universo en cada bocado de nuestro pastel. Su textura y decoración en tonos cósmicos te transportarán a lo más profundo del cosmos. Perfecto para los amantes del espacio.",
+   "price": 25.70,
+    "category": "cake",
+    "quantity": 1
   },
   {
-    "id": 6,
-    "name": "Pastel temático Girasoles",
+    "id": 16,
+    "name": "Temático Girasoles",
     "imageUrl": "https://brigams.pe/wp-content/uploads/GIRASOL-FRONTAL-scaled.jpg",
-    "description": "Sumérgete en un jardín de sabor con nuestro pastel de girasoles, con capas de esponjoso bizcocho y exquisita crema de girasol."
+    "description": "Sumérgete en un jardín de sabor con nuestro pastel de girasoles, con capas de esponjoso bizcocho y exquisita crema de girasol.",
+    "price": 25.70,
+     "category": "cake",
+     "quantity": 1
    },
    {
-    "id": 7,
-    "name": "Pastel temático Acuático",
+    "id": 17,
+    "name": "Temático Acuático",
     "imageUrl": "https://i.pinimg.com/236x/f8/9b/a9/f89ba928589964b1ced12f539847bfe1--sea-cakes-fancy-cakes.jpg",
-    "description": "Explora los mares de la delicia con nuestro pastel acuático, decorado con un impresionante diseño de criaturas marinas en fondant y relleno de cremoso chocolate."
+    "description": "Explora los mares de la delicia con nuestro pastel acuático, decorado con un impresionante diseño de criaturas marinas en fondant y relleno de cremoso chocolate.",
+    "price": 25.70,
+     "category": "cake",
+     "quantity": 1
    },
    {
-    "id": 8,
-    "name": "Pastel temático Retro",
+    "id": 18,
+    "name": "Temático Retro",
     "imageUrl": "https://i.pinimg.com/originals/1b/a6/86/1ba686c1021f640267047ec5c584a83e.jpg",
-    "description": "Haz un viaje en el tiempo con nuestro pastel retro, con un estilo colorido y vibrante de los años 80, con capas de bizcocho de vainilla y crema de mantequilla de fresa."
+    "description": "Haz un viaje en el tiempo con nuestro pastel retro, con un estilo colorido y vibrante de los años 80, con capas de bizcocho de vainilla y crema de mantequilla de fresa.",
+    "price": 25.70,
+     "category": "cake",
+     "quantity": 1
    },
    {
-    "id": 9,
-    "name": "Pastel temático Gamer",
+    "id": 19,
+    "name": "Temático Gamer",
     "imageUrl": "https://pbs.twimg.com/media/FAOcsGNUYAI7us3.jpg:large",
-    "description": "Celebra tu pasión por los videojuegos con nuestro pastel gamer, decorado con detalles en fondant de los iconos de todo gamer y relleno de rica crema de chocolate y fresa."
+    "description": "Celebra tu pasión por los videojuegos con nuestro pastel gamer, decorado con detalles en fondant de los iconos de todo gamer y relleno de rica crema de chocolate y fresa.",
+    "price": 25.70,
+     "category": "cake",
+     "quantity": 1
    },
    {
-    "id": 10,
-    "name": "Pastel temático CETD",
+    "id": 20,
+    "name": "Temático CETD",
     "imageUrl": "https://i.pinimg.com/736x/3d/b2/82/3db2820546b3ebbcdc7de85b5c3add71.jpg",
-    "description": "Experimenta la furia de sabores nordicos con nuestro pastel de cómo entrenar a tu dragón, con una espectacular decoración en fondant de Hippo y Chimuelo."
+    "description": "Experimenta la furia de sabores nordicos con nuestro pastel de cómo entrenar a tu dragón, con una espectacular decoración en fondant de Hippo y Chimuelo.",
+    "price": 25.70,
+     "category": "cake",
+     "quantity": 1
    }
  ],
  "customized" : [
   {
-   "id" : 1,
-   "name" : "Personalizado - Naruto",
+   "id" : 21,
+   "name" : "Personalizado Naruto",
    "imageUrl" : "https://i.pinimg.com/originals/54/82/bd/5482bd41d1a5c2543dc772d3ab4fe4dd.jpg",
-   "description" : "Celebra como un ninja con este pastel de Naruto. Con su pan de vainilla y cubierta de chocolate ¡Sorprende a tus amigos y familiares con este pastel temático en tu próxima celebración!"
+   "description" : "Celebra como un ninja con este pastel de Naruto. Con su pan de vainilla y cubierta de chocolate ¡Sorprende a tus amigos y familiares con este pastel temático en tu próxima celebración!",
+   "price": 25.70,
+    "category": "cake",
+    "quantity": 1
   },
   {
-   "id" : 2,
-   "name" : "Personalizado - Minecraft",
+   "id" : 22,
+   "name" : "Personalizado Minecraft",
    "imageUrl" : "https://aranzazu.com/wp-content/uploads/2023/03/producto-web-base-especiales-dia-del-ninocopia-copia.webp",
-   "description" : "Celebra con este pastel temático de Creeper, con bizcocho de vainilla y cubierto de fondant verde. ¡Perfecto para cualquier fan de Minecraft!"
+   "description" : "Celebra con este pastel temático de Creeper, con bizcocho de vainilla y cubierto de fondant verde. ¡Perfecto para cualquier fan de Minecraft!",
+   "price": 25.70,
+    "category": "cake",
+    "quantity": 1
   },
   {
-   "id" : 3,
-   "name" : "Personalizado - Beastars",
+   "id" : 23,
+   "name" : "Personalizado Beastars",
    "imageUrl" : "https://pbs.twimg.com/media/Elk3u_qU4AMnejM.jpg",
-   "description" : "Con su pan de vainilla suave y una capa de glaseado de turrón, está decorado con los personajes principales del anime. Este pastel seguro será un éxito en cualquier celebración."
+   "description" : "Con su pan de vainilla suave y una capa de glaseado de turrón, está decorado con los personajes principales del anime. Este pastel seguro será un éxito en cualquier celebración.",
+   "price": 25.70,
+    "category": "cake",
+    "quantity": 1
   },
   {
-   "id" : 4,
-   "name" : "Personalizado - Barbie",
+   "id" : 24,
+   "name" : "Personalizado Barbie",
    "imageUrl" : "https://d2r9epyceweg5n.cloudfront.net/stores/002/197/435/products/barbie-2-pisos1-3cbaea94d8ccd5bd0f16737279429900-1024-1024.webp",
-   "description" : "Este pastel es un sueño hecho realidad. Con una textura suave y esponjosa y una cubierta de fondant blanca con turrón rosado, es perfecto para cualquier ocasión. Excelente para ser el centro de atención."
+   "description" : "Este pastel es un sueño hecho realidad. Con una textura suave y esponjosa y una cubierta de fondant blanca con turrón rosado, es perfecto para cualquier ocasión. Excelente para ser el centro de atención.",
+   "price": 25.70,
+    "category": "cake",
+    "quantity": 1
   },
   {
-   "id" : 5,
-   "name" : "Personalizado - Ladybug",
+   "id" : 25,
+   "name" : "Personalizado Ladybug",
    "imageUrl" : "https://pm1.narvii.com/6552/b7bd6bb90fa08c4e5db89422de742075ce8b8a38_hq.jpg",
-   "description" : "Disfruta una dulce aventura con este pastel de Ladybug y Cat Noir. Decorado con diseños de los héroes más grandes de París. Perfecto para cualquier fan, este pastel es ideal para tu fiesta."
+   "description" : "Disfruta una dulce aventura con este pastel de Ladybug y Cat Noir. Decorado con diseños de los héroes más grandes de París. Perfecto para cualquier fan, este pastel es ideal para tu fiesta.",
+   "price": 25.70,
+    "category": "cake",
+    "quantity": 1
   },
   {
-    "id": 6,
-    "name": "Personalizado - My Melody",
+    "id": 26,
+    "name": "Personalizado Melody",
     "imageUrl": "https://pbs.twimg.com/media/FWsebP_WIAEw3KV.jpg",
-    "description": "Endulza tus momentos más tiernos con nuestro pastel de My Melody. Perfecto para cumpleaños y celebraciones con un toque dulce y adorable. ¡Pruébalo ahora!"
+    "description": "Endulza tus momentos más tiernos con nuestro pastel de My Melody. Perfecto para cumpleaños y celebraciones con un toque dulce y adorable. ¡Pruébalo ahora!",
+    "price": 25.70,
+     "category": "cake",
+     "quantity": 1
    },
    {
-    "id": 7,
-    "name": "Personalizado - Harry Potter",
+    "id": 27,
+    "name": "Personalizado HP",
     "imageUrl": "https://elcomercio.pe/resizer/2QzHIUMSIJ_09iQ8xEV7ry85Pyo=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/SYZV2D2ARJFSRLO2QKE5SAV7UM.jpg",
-    "description": "¡Sorprende a tus invitados con un icono de la historia del niño que sobrevivió! Celebra tu cumpleaños con nuestro pastel inspirado en Harry Potter ¡Haz de tu fiesta algo mágico!"
+    "description": "¡Sorprende a tus invitados con un icono de la historia del niño que sobrevivió! Celebra tu cumpleaños con nuestro pastel inspirado en Harry Potter ¡Haz de tu fiesta algo mágico!",
+    "price": 25.70,
+     "category": "cake",
+     "quantity": 1
    },
    {
-    "id": 8,
-    "name": "Personalizado - Shrek",
+    "id": 28,
+    "name": "Personalizado Shrek",
     "imageUrl": "https://i.pinimg.com/736x/9f/cd/a7/9fcda7897996f342a02b8aedac595081.jpg",
-    "description": "¡El pastel más delicioso y divertido que hayas probado! Con su increíble sabor y decoración ¡hasta el mismísimo Shrek lo aprobaría!"
+    "description": "¡El pastel más delicioso y divertido que hayas probado! Con su increíble sabor y decoración ¡hasta el mismísimo Shrek lo aprobaría!",
+    "price": 25.70,
+     "category": "cake",
+     "quantity": 1
    },
    {
-    "id": 9,
-    "name": "Personalizado - Cars",
+    "id": 29,
+    "name": "Personalizado Cars",
     "imageUrl": "https://i.pinimg.com/originals/16/0e/dd/160edd4d188ca6dba3adffcf42045eee.jpg",
-    "description": "Si buscas un pastel fresco y afrutado, este pastel de fresa es perfecto para ti. La base rellena con una capa generosa de mermelada de fresa fresca, y cubierta con una capa espesa de crema de queso."
+    "description": "Si buscas un pastel fresco y afrutado, este pastel de fresa es perfecto para ti. La base rellena con una capa generosa de mermelada de fresa fresca, y cubierta con una capa espesa de crema de queso.",
+    "price": 25.70,
+     "category": "cake",
+     "quantity": 1
    },
    {
-    "id": 10,
-    "name": "Personalizado - Fútbol",
+    "id": 30,
+    "name": "Personalizado Fútbol",
     "imageUrl": "https://media.istockphoto.com/id/1058558528/es/foto/anivers%C3%A1rio-de-bolo.jpg?s=612x612&w=0&k=20&c=8vKssMfyaSrDCv10du16R8782TjsmTQJA605NeIMeyA=",
-    "description": "¡Celebra un gol más con nuestro pastel futbolista! Su deliciosa y cremosa masa más su decoración con crema de verde-blanco harán que cada ocasión sea una supercopa."
+    "description": "¡Celebra un gol más con nuestro pastel futbolista! Su deliciosa y cremosa masa más su decoración con crema de verde-blanco harán que cada ocasión sea una supercopa.",
+    "price": 25.70,
+     "category": "cake",
+     "quantity": 1
    }
  ]
 }

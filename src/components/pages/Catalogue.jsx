@@ -58,7 +58,7 @@ const Catalogue = ({ quantity, increaseQuantity, decreaseQuantity, setSelectedCa
                       <h6 className="text-start pt-2">{cake.name}</h6>
                     </div>
                     <div className="col-md-3">
-                      <h6 className="text-end pt-2">${cake.price}</h6>
+                      <h6 className="text-end pt-2">${cake.price.toFixed(2)}</h6>
                     </div>
                   </div>
                   <div className="row justify-content-center">

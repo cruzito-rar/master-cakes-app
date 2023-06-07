@@ -1,9 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import $ from "jquery";
+import Swal from "sweetalert2";
+import printJS from "print-js";
 
 const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
   const getTotalQuantity = () => {
-    const totalQuantity = selectedCakes.reduce((total, item) => total + item.quantity, 0);
+    const totalQuantity = selectedCakes.reduce(
+      (total, item) => total + item.quantity,
+      0
+    );
     return totalQuantity;
   };
 
@@ -20,9 +26,36 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
     });
   };
 
+  const handleBuy = () => {
+    if (selectedCakes.length > 0) {
+      printJS({
+        printable: "cartShop",
+        ignoreElements: [
+          ".btn",
+          "#buy"
+        ],
+        type: "html",
+        documentTitle: "Master Cakes - Ticket",
+        style: "",
+      });
+
+      Swal.fire({
+        icon: "success",
+        title: "¡Ticket guardado!",
+        text: "El ticket de compra ha sido generado y guardado exitosamente.",
+      }).then(() => {
+        setSelectedCakes([]);
+        setTotal(0);
+      });
+    }
+  };
+
   return (
     <div>
-      <nav className="navbar navbar-expand-md navbar-dark fixed-top text-center w-100" id="home">
+      <nav
+        className="navbar navbar-expand-md navbar-dark fixed-top text-center w-100"
+        id="home"
+      >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/" title="Master Cakes">
             <img src="../logo.png" width="65px" alt="Logo" />
@@ -38,10 +71,18 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
           >
             <span className="navbar-toggler-icon"> </span>
           </button>
-          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
             <ul className="navbar-nav">
-            <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/" title="Home">
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  aria-current="page"
+                  to="/"
+                  title="Home"
+                >
                   Home
                 </Link>
               </li>
@@ -56,19 +97,19 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
                 >
                   Catálogo
                 </a>
-                <ul className="dropdown-menu border-0 text-center">
+                <ul className="dropdown-menu dropdown-menu-start bg-white">
                   <li>
-                    <Link className="dropdown-item" to="/online-catalogue">
+                    <Link className="dropdown-item text-black" to="/online-catalogue">
                       Pasteles
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/thematics-catalogue">
+                    <Link className="dropdown-item text-black" to="/thematics-catalogue">
                       Pasteles temáticos
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" to="/customized-catalogue">
+                    <Link className="dropdown-item text-black" to="/customized-catalogue">
                       Pasteles personalizados
                     </Link>
                   </li>
@@ -97,7 +138,11 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
                 <div className="circle justify-content-center">
                   <h6 id="quantity"> {getTotalQuantity()} </h6>
                 </div>
-                <ul className="dropdown-menu dropdown-menu-end bg-white" style={{ width: '385px' }}>
+                <ul
+                  className="dropdown-menu dropdown-menu-end bg-white"
+                  style={{ width: "385px" }}
+                  id="cartShop"
+                >
                   {selectedCakes.length > 0 ? (
                     selectedCakes.map((cake) => (
                       <li key={cake.id}>
@@ -108,8 +153,8 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
                                 src={cake.imageUrl}
                                 alt={cake.name}
                                 className="dropdown-img"
-                                width={'85px'}
-                                height={'80px'}
+                                width={"85px"}
+                                height={"80px"}
                               />
                             </div>
                             <div className="col-6">
@@ -117,12 +162,15 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
                                 <strong> {cake.name} </strong>
                               </h6>
                               <p className="dropdown-price text-start m-0">
-                                <strong> Precio: </strong> ${cake.price} <br />
+                                <strong> Precio: </strong> ${cake.price.toFixed(2)} <br />
                                 <strong> Cantidad: </strong> {cake.quantity}
                               </p>
                             </div>
                             <div className="col-2">
-                              <button className="btn btn-danger" onClick={() => handleRemoveCake(cake)}>
+                              <button
+                                className="btn btn-danger"
+                                onClick={() => handleRemoveCake(cake)}
+                              >
                                 <i className="fas fa-minus"></i>
                               </button>
                             </div>
@@ -132,10 +180,12 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
                     ))
                   ) : (
                     <li>
-                      <div className="dropdown-item text-black"> No hay productos en el carrito. </div>
+                      <div className="dropdown-item text-black">
+                        {" "}
+                        No hay productos en el carrito.{" "}
+                      </div>
                     </li>
                   )}
-
                   {selectedCakes.length > 0 && (
                     <li>
                       <div className="dropdown-item">
@@ -144,7 +194,13 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
                         </h6>
                       </div>
                       <div className="dropdown-item text-center">
-                        <button className="btn btn-minimalista">Confirmar compra</button>
+                        <button
+                          className="btn btn-minimalista"
+                          id="buy"
+                          onClick={handleBuy}
+                        >
+                          Confirmar compra
+                        </button>
                       </div>
                     </li>
                   )}

@@ -46,6 +46,7 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
       }).then(() => {
         setSelectedCakes([]);
         setTotal(0);
+        total = 0;
       });
     }
   };

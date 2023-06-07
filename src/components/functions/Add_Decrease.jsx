@@ -4,10 +4,10 @@ export const useAddDecrease = () => {
   const [quantity, setQuantity] = useState(0);
 
   const increaseQuantity = () => {
-    if(quantity <= 3) {
+    if (quantity <= 3) {
       setQuantity(quantity + 1);
     } else {
-     console.log("¿Para qué tantos pasteles? Gord@ asqueros@");
+      console.log("¿Para qué tantos pasteles? Gord@ asqueros@");
     }
   };
 
@@ -22,4 +22,4 @@ export const useAddDecrease = () => {
     increaseQuantity,
     decreaseQuantity,
   };
-}
+};

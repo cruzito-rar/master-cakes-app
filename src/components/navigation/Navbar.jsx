@@ -1,16 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = ({ quantity, decreaseQuantity, selectedCakes, setSelectedCakes, total, setTotal }) => {
+const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
   const getTotalQuantity = () => {
     const totalQuantity = selectedCakes.reduce((total, item) => total + item.quantity, 0);
     return totalQuantity;
   };
 
   const handleRemoveCake = (cake) => {
-    decreaseQuantity();
-    setSelectedCakes(selectedCakes.filter((item) => item.id !== cake.id));
-    setTotal(total - cake.price * cake.quantity);
+    setSelectedCakes((prevSelectedCakes) => {
+      const updatedCakes = prevSelectedCakes.map((item) => {
+        if (item.id === cake.id) {
+          item.quantity -= 1;
+          setTotal((prevTotal) => prevTotal - cake.price);
+        }
+        return item;
+      });
+      return updatedCakes.filter((item) => item.quantity > 0);
+    });
   };
 
   return (
@@ -33,7 +40,7 @@ const Navbar = ({ quantity, decreaseQuantity, selectedCakes, setSelectedCakes, t
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
-              <li className="nav-item">
+            <li className="nav-item">
                 <Link className="nav-link" aria-current="page" to="/" title="Home">
                   Home
                 </Link>
@@ -68,12 +75,12 @@ const Navbar = ({ quantity, decreaseQuantity, selectedCakes, setSelectedCakes, t
                 </ul>
               </li>
               <li className="nav-item">
-                <Link class="nav-link" to="/about" title="Nosotros">
+                <Link className="nav-link" to="/about" title="Nosotros">
                   Nosotros
                 </Link>
               </li>
               <li className="nav-item">
-                <a class="nav-link" href="#footer" title="Contáctanos">
+                <a className="nav-link" href="#footer" title="Contáctanos">
                   Contáctanos
                 </a>
               </li>
@@ -85,7 +92,7 @@ const Navbar = ({ quantity, decreaseQuantity, selectedCakes, setSelectedCakes, t
                   href="#"
                   title="Carrito"
                 >
-                  <i class="fas fa-shopping-cart"> </i>
+                  <i className="fas fa-shopping-cart"> </i>
                 </a>
                 <div className="circle justify-content-center">
                   <h6 id="quantity"> {getTotalQuantity()} </h6>
@@ -110,16 +117,13 @@ const Navbar = ({ quantity, decreaseQuantity, selectedCakes, setSelectedCakes, t
                                 <strong> {cake.name} </strong>
                               </h6>
                               <p className="dropdown-price text-start m-0">
-                                <strong> Precio: </strong> ${cake.price} <br />{' '}
+                                <strong> Precio: </strong> ${cake.price} <br />
                                 <strong> Cantidad: </strong> {cake.quantity}
                               </p>
                             </div>
                             <div className="col-2">
-                              <button
-                                className="btn btn-danger"
-                                onClick={() => handleRemoveCake(cake)}
-                              >
-                                <i className="fas fa-trash"></i>
+                              <button className="btn btn-danger" onClick={() => handleRemoveCake(cake)}>
+                                <i className="fas fa-minus"></i>
                               </button>
                             </div>
                           </div>
@@ -136,19 +140,16 @@ const Navbar = ({ quantity, decreaseQuantity, selectedCakes, setSelectedCakes, t
                     <li>
                       <div className="dropdown-item">
                         <h6 className="text-start">
-                          Total: ${selectedCakes.reduce((total, cake) => total + cake.price * cake.quantity, 0).toFixed(2)}
+                          Total: ${total.toFixed(2)}
                         </h6>
                       </div>
                       <div className="dropdown-item text-center">
-                        <button className="btn btn-minimalista">
-                          Confirmar compra
-                        </button>
+                        <button className="btn btn-minimalista">Confirmar compra</button>
                       </div>
                     </li>
                   )}
                 </ul>
               </li>
-              {/* <li class="nav-item"> <Link class="nav-link" to="https://www.instagram.com/master_cake_oficial" title="Instagram"> <i class="fab fa-instagram"> </i> </Link> </li> */}
             </ul>
           </div>
         </div>

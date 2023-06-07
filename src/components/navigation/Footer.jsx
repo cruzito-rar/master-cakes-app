@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 
 const Footer = () => {
  return (
-  <footer className="text-white mt-5 pb-5" id="footer">
+  <footer className="text-white mt-5" id="footer">
    <div className="container">
     <div className="row d-flex align-items-center">
       <div className="col-12 col-md-3 mb-3 mb-md-0 text-center">

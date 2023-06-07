@@ -54,16 +54,16 @@ const Catalogue = ({ quantity, increaseQuantity, decreaseQuantity, setSelectedCa
                 <img src={cake.imageUrl} className="card-img-top" alt={cake.name} />
                 <div className="container">
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-9">
                       <h6 className="text-start pt-2">{cake.name}</h6>
                     </div>
-                    <div className="col-md-6">
-                      <h6 className="text-start pt-2">Precio: ${cake.price}</h6>
+                    <div className="col-md-3">
+                      <h6 className="text-end pt-2">${cake.price}</h6>
                     </div>
                   </div>
                   <div className="row justify-content-center">
                     <button
-                      className="btn btn-minimalista w-75"
+                      className="btn btn-minimalista w-75 mt-2"
                       onClick={() => handleAddToCart(cake)}
                       disabled={totalQuantity === 4 || (productExists && productExists.quantity === 4)}
                     >

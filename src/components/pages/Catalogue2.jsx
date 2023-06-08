@@ -54,10 +54,10 @@ const Catalogue2 = ({ quantity, increaseQuantity, decreaseQuantity, setSelectedC
                 <img src={cake.imageUrl} className="card-img-top" alt={cake.name} />
                 <div className="container">
                   <div className="row">
-                    <div className="col-md-9">
+                    <div className="col-9">
                       <h6 className="text-start pt-2">{cake.name}</h6>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-3">
                       <h6 className="text-end pt-2">${cake.price.toFixed(2)}</h6>
                     </div>
                   </div>

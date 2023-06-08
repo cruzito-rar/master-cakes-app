@@ -20,6 +20,10 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
           item.quantity -= 1;
           setTotal((prevTotal) => prevTotal - cake.price);
         }
+
+        if (item.quantity === 0) {
+          setTotal(0);
+        }
         return item;
       });
       return updatedCakes.filter((item) => item.quantity > 0);
@@ -30,10 +34,7 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
     if (selectedCakes.length > 0) {
       printJS({
         printable: "cartShop",
-        ignoreElements: [
-          ".btn",
-          "#buy"
-        ],
+        ignoreElements: [".btn", "#buy"],
         type: "html",
         documentTitle: "Master Cakes - Ticket",
         style: "",
@@ -100,17 +101,26 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
                 </a>
                 <ul className="dropdown-menu dropdown-menu-start bg-white">
                   <li>
-                    <Link className="dropdown-item text-black" to="/online-catalogue">
+                    <Link
+                      className="dropdown-item text-black"
+                      to="/online-catalogue"
+                    >
                       Pasteles
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item text-black" to="/thematics-catalogue">
+                    <Link
+                      className="dropdown-item text-black"
+                      to="/thematics-catalogue"
+                    >
                       Pasteles temáticos
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item text-black" to="/customized-catalogue">
+                    <Link
+                      className="dropdown-item text-black"
+                      to="/customized-catalogue"
+                    >
                       Pasteles personalizados
                     </Link>
                   </li>
@@ -163,7 +173,8 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
                                 <strong> {cake.name} </strong>
                               </h6>
                               <p className="dropdown-price text-start m-0">
-                                <strong> Precio: </strong> ${cake.price.toFixed(2)} <br />
+                                <strong> Precio: </strong> $
+                                {cake.price.toFixed(2)} <br />
                                 <strong> Cantidad: </strong> {cake.quantity}
                               </p>
                             </div>

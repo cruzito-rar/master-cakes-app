@@ -11,7 +11,7 @@ const Shipments = () => {
      <div className="row justify-content-center">
       <div className="col-md-9">
        <h1 className="text-center mt-5 my-5 text-white"> Política de envíos </h1>
-       <p className="mt-5 pt-5 mb-5"> La pastelería Master Cakes ofrece un servicio de entrega a nivel nacional. El costo del envío será de $2.50 por pedido, el cual puede variar dependiendo de la distancia de destino en el cual se entregará.
+       <p className="mt-5 pt-5 mb-5 text-none-v"> La pastelería Master Cakes ofrece un servicio de entrega a nivel nacional. El costo del envío será de $2.50 por pedido, el cual puede variar dependiendo de la distancia de destino en el cual se entregará.
         
         Nos comprometemos a entregar los pedidos en un plazo máximo de 24 horas después de realizada la orden. Si el pedido se realiza después de las 2:30 pm, la entrega se realizará al día siguiente. Las entregas se realizarán los días Lunes, Viernes, Sábados y Domingos en horarios de 10:00 am a 12:00 md. Cualquier pedido realizado fuera de estos horarios se entregará en el siguiente día hábil. <br/> <br/>
         

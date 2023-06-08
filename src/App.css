@@ -143,7 +143,18 @@ hr {
 .card.mision h1 {
  color: #FFFFFF;
 }
+.text-none{
+  display: none;
+  color: black;
+ }
 
+ .text-none-v{
+  display: block;
+  color: white;
+  border-radius: 50px;
+  padding: 20px;
+  background-color: rgba(179, 74, 74, .82);
+}
 @media (max-width: 1000px), (max-width: 900px), (max-width: 767px), (max-width: 500px), (max-width: 400px) {
  body {
   background-size: 100vw 100vh;
@@ -162,9 +173,27 @@ hr {
  .card.mision p {
   padding: 15px;
  }
+
+ 
 }
 
 @media (max-width: 900px) {
+
+  .resize-text{
+    display: none;
+  }
+
+  .text-none{
+    display: block;
+    margin-top: -500px;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    background-color: rgba(179, 74, 74, .72);
+  }
+
+  
+
   .circle {
     position: absolute;
     top: 53%;

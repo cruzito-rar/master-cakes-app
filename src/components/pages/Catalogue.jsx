@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const Catalogue = ({ quantity, increaseQuantity, decreaseQuantity, setSelectedCakes, selectedCakes, total, setTotal }) => {
+const Catalogue = ({setSelectedCakes, selectedCakes, total, setTotal }) => {
   const [cakes, setCakes] = useState([]);
 
   useEffect(() => {

@@ -33,9 +33,9 @@ const App = () => {
      <Navbar quantity={quantity} decreaseQuantity={decreaseQuantity} selectedCakes={selectedCakes} setSelectedCakes={setSelectedCakes} total={total} setTotal={setTotal}/>
       <Routes>
         <Route exact path='/' element={<Home/>}/>
-        <Route path='/online-catalogue' element={<Catalogue quantity={cartQuantity} increaseQuantity={increaseQuantity} decreaseQuantity={decreaseQuantity} setSelectedCakes={setSelectedCakes} selectedCakes={selectedCakes} total={total} setTotal={setTotal}/>}/>
-        <Route path='/thematics-catalogue' element={<Catalogue1 quantity={cartQuantity} increaseQuantity={increaseQuantity} decreaseQuantity={decreaseQuantity} setSelectedCakes={setSelectedCakes} selectedCakes={selectedCakes} total={total} setTotal={setTotal}/>}/>
-        <Route path='/customized-catalogue' element={<Catalogue2 quantity={cartQuantity} increaseQuantity={increaseQuantity} decreaseQuantity={decreaseQuantity} setSelectedCakes={setSelectedCakes} selectedCakes={selectedCakes} total={total} setTotal={setTotal}/>}/>
+        <Route path='/online-catalogue' element={<Catalogue setSelectedCakes={setSelectedCakes} selectedCakes={selectedCakes} total={total} setTotal={setTotal}/>}/>
+        <Route path='/thematics-catalogue' element={<Catalogue1 setSelectedCakes={setSelectedCakes} selectedCakes={selectedCakes} total={total} setTotal={setTotal}/>}/>
+        <Route path='/customized-catalogue' element={<Catalogue2 setSelectedCakes={setSelectedCakes} selectedCakes={selectedCakes} total={total} setTotal={setTotal}/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/mision-vision' element={<Mision/>}/>
         <Route path='/shipments-policy' element={<Shipments/>}/>

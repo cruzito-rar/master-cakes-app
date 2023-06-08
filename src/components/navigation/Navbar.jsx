@@ -17,16 +17,22 @@ const Navbar = ({ selectedCakes, setSelectedCakes, total, setTotal }) => {
     setSelectedCakes((prevSelectedCakes) => {
       const updatedCakes = prevSelectedCakes.map((item) => {
         if (item.id === cake.id) {
-          item.quantity -= 1;
-          setTotal((prevTotal) => prevTotal - cake.price);
-        }
-
-        if (item.quantity === 0) {
-          setTotal(0);
+          return {
+            ...item,
+            quantity: item.quantity - 1,
+          };
         }
         return item;
       });
-      return updatedCakes.filter((item) => item.quantity > 0);
+
+      const filteredCakes = updatedCakes.filter((item) => item.quantity > 0);
+      const newTotal = filteredCakes.reduce(
+        (total, item) => total + item.price * item.quantity,
+        0
+      );
+
+      setTotal(newTotal);
+      return filteredCakes;
     });
   };
 

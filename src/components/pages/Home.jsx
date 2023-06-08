@@ -11,17 +11,19 @@ const Home = () => {
     <main>
       <div className="home">
         <div className="d-flex">
-          <p className="text-white mt-5">
+          <p className="text-white mt-5 ">
             <h2 className="mt-5 pt-5 ms-4">
               {" "}
               Master <br/>{" "}
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cakes{" "}
             </h2>{" "}
             <br/> <br/>
+            <p className="resize-text text-light" >
             En nuestra pastelería, el aroma a recién horneado se mezcla con el
             dulce perfume de la vainilla, mientras los pasteles y tartas relucen
             en todo su esplendor, invitándote a probar cada bocado lleno de
             sabor y ternura.
+            </p>
           </p>
           <img
             src="https://kathleenshop.com/wp-content/uploads/2021/09/Piano-Theme-Cake-Rs-650-per-pond.png"
@@ -31,6 +33,12 @@ const Home = () => {
       </div>
 
       <div className="card-container mt-5 pt-5 text-center ">
+        <p className="text-none">
+            En nuestra pastelería, el aroma a recién horneado se mezcla con el
+            dulce perfume de la vainilla, mientras los pasteles y tartas relucen
+            en todo su esplendor, invitándote a probar cada bocado lleno de
+            sabor y ternura.
+        </p>
         <h5 className="productos mb-4"> Nuestros productos </h5>
         <div className="row mb-5 ">
           <div className="col d-flex justify-content-center mb-3">

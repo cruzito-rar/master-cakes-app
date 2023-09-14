@@ -17,6 +17,7 @@ footer ul li {
 footer ul li a {
  color: #FFFFFF;
  text-decoration: none;
+ transition: all .2s ease-in;
 }
 
 footer ul li a:hover {

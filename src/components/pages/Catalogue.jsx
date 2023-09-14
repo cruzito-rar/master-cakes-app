@@ -1,12 +1,16 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const Catalogue = ({setSelectedCakes, selectedCakes, total, setTotal }) => {
+const Catalogue = ({ setSelectedCakes, selectedCakes, total, setTotal }) => {
   const [cakes, setCakes] = useState([]);
 
   useEffect(() => {
     fetch('cake.json')
       .then(response => response.json())
-      .then(data => setCakes(data.online))
+      .then(data => {
+        // Accede a la matriz correcta en el JSON (traditional_cakes)
+        const traditionalCakes = data.products.traditional_cakes;
+        setCakes(traditionalCakes);
+      })
       .catch(error => console.error(error));
   }, []);
 
@@ -47,11 +51,11 @@ const Catalogue = ({setSelectedCakes, selectedCakes, total, setTotal }) => {
         {cakes.map((cake) => {
           const productExists = selectedCakes.find((item) => item.id === cake.id);
           const totalQuantity = selectedCakes.reduce((sum, item) => sum + item.quantity, 0);
-          
+
           return (
             <div key={cake.id} className="col mb-4">
               <div className="card product-card border-0">
-                <img src={cake.imageUrl} className="card-img-top" alt={cake.name} />
+                <img src={cake.image} className="card-img-top" alt={cake.name} />
                 <div className="container">
                   <div className="row">
                     <div className="col-9">
@@ -73,7 +77,7 @@ const Catalogue = ({setSelectedCakes, selectedCakes, total, setTotal }) => {
                 </div>
                 <div className="overlay rounded-top w-100">
                   <h5 className="card-title text-center">{cake.name}</h5>
-                  <p className="card-text text-center text-white mt-3">{cake.description}</p>
+                  <p className="card-text text-center text-white mt-3">{cake.desc}</p>
                 </div>
               </div>
             </div>
